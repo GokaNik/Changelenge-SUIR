@@ -1,0 +1,52 @@
+import sys
+import pickle
+import numpy as np
+
+def predict(model, data):
+    return model.predict(np.array([data]))[0]
+
+if __name__ == "__main__":
+    # Загружаем модель из файла .pkl
+    with open('model.pkl', 'rb') as file:
+        model = pickle.load(file)
+    
+    # Читаем данные из аргументов командной строки
+    data = list(map(float, sys.argv[1:]))
+    
+    # Делаем предсказание
+    result = predict(model, data)
+    
+    # Выводим результат
+    print(result)
+Шаг 2: Вызов Python-сценария из Java
+В Java-приложении используйте ProcessBuilder для вызова Python-сценария и передачи ему данных.
+
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
+public class Predict {
+
+    public static void main(String[] args) throws IOException {
+        String pythonPath = "/usr/bin/python"; // Путь к Python-интерпретатору
+        String scriptPath = "path/to/predict.py"; // Путь к Python-сценарию
+        double[] data = {1.0, 2.0, 3.0}; // Входные данные для предсказания
+
+        ProcessBuilder processBuilder = new ProcessBuilder(
+                pythonPath, scriptPath, Double.toString(data[0]), Double.toString(data[1]), Double.toString(data[2]));
+
+        Process process = processBuilder.start();
+
+        BufferedReader reader = new BufferedReader(new InputStreamReader(process.getInputStream()));
+        String line;
+        while ((line = reader.readLine()) != null) {
+            System.out.println(line); // Вывод результата предсказания
+        }
+
+        int exitCode = process.waitFor();
+        if (exitCode != 0) {
+            throw new RuntimeException("Python script failed with exit code " + exitCode);
+        }
+    }
+}
