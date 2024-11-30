@@ -16,21 +16,13 @@ def standart(dataset):
     dataset.loc[dataset['role'] == 'ЕИО', 'role'] = 1
     return dataset
 
-
-# загрузка первого дата сета
-with open("synthetic_data_realistic.json", 'r', encoding='utf-8') as f:
-    data = json.load(f)
-dataset = pd.json_normalize(data)
-dataset = standart(dataset)
-
 # Загрузка модели
 model = joblib.load('super_model.pkl')
 
 
-def predict_from_file(file_path):
+def predict_from_file(ask):
     # Загрузка данных
-    with open(file_path, 'r', encoding='utf-8') as f:
-        ask = json.load(f)
+
     ask = pd.json_normalize(ask)  # Или другой формат, если нужно
 
     ask = standart(ask)
@@ -38,10 +30,10 @@ def predict_from_file(file_path):
 
     new_row = ask.loc[0].to_dict()
 
-    dataset.loc[len(dataset)] = new_row
+    ask.loc[len(ask)] = new_row
 
     scaler1 = StandardScaler()
-    scaled_data1 = scaler1.fit_transform(dataset)
+    scaled_data1 = scaler1.fit_transform(ask)
 
     tsne = TSNE(n_components=2, max_iter=1000, random_state=1)
     X_tsne = tsne.fit_transform(scaled_data1)
@@ -57,6 +49,7 @@ def predict_from_file(file_path):
 
 if __name__ == "__main__":
     # Получаем путь к файлу из аргументов
-    file_path = 'synthetic_data.json'
-    predict_from_file(file_path)
+    json_data = sys.stdin.read()
+    data = json.loads(json_data)
+    predict_from_file(data)
 
