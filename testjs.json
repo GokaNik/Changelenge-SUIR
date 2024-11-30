@@ -1,0 +1,23 @@
+{
+    "clientId": "123456789",
+    "organizationId": "org_001",
+    "segment": "Малый бизнес",
+    "role": "ЕИО",
+    "organizations": 1,
+    "currentMethod": "КЭП на токене",
+    "mobileApp": 1,
+    "signatures": {
+        "common": {
+            "mobile": 23,
+            "web": 67
+        },
+        "special": {
+            "mobile": 11,
+            "web": 22
+        }
+    },
+    "availableMethods": [
+        "КЭП на токене"
+    ],
+    "claims": 0
+}
