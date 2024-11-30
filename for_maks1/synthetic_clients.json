@@ -1,0 +1,7365 @@
+[
+    {
+        "clientId": "client_1",
+        "organizationId": "organization_1",
+        "segment": "Малый бизнес",
+        "role": "Сотрудник",
+        "organizations": 119,
+        "currentMethod": "КЭП на токене",
+        "mobileApp": false,
+        "signatures": {
+            "common": {
+                "mobile": 2,
+                "web": 16
+            },
+            "special": {
+                "mobile": 9,
+                "web": 1
+            }
+        },
+        "availableMethods": [
+            "КЭП на токене"
+        ],
+        "claims": 2
+    },
+    {
+        "clientId": "client_2",
+        "organizationId": "organization_2",
+        "segment": "Крупный бизнес",
+        "role": "Сотрудник",
+        "organizations": 108,
+        "currentMethod": "SMS",
+        "mobileApp": true,
+        "signatures": {
+            "common": {
+                "mobile": 26,
+                "web": 64
+            },
+            "special": {
+                "mobile": 10,
+                "web": 40
+            }
+        },
+        "availableMethods": [
+            "КЭП на токене",
+            "SMS",
+            "PayControl"
+        ],
+        "claims": 2
+    },
+    {
+        "clientId": "client_3",
+        "organizationId": "organization_3",
+        "segment": "Крупный бизнес",
+        "role": "Сотрудник",
+        "organizations": 221,
+        "currentMethod": "SMS",
+        "mobileApp": false,
+        "signatures": {
+            "common": {
+                "mobile": 22,
+                "web": 24
+            },
+            "special": {
+                "mobile": 12,
+                "web": 28
+            }
+        },
+        "availableMethods": [
+            "КЭП в приложении"
+        ],
+        "claims": 5
+    },
+    {
+        "clientId": "client_4",
+        "organizationId": "organization_4",
+        "segment": "Средний бизнес",
+        "role": "ЕИО",
+        "organizations": 254,
+        "currentMethod": "SMS",
+        "mobileApp": false,
+        "signatures": {
+            "common": {
+                "mobile": 3,
+                "web": 60
+            },
+            "special": {
+                "mobile": 9,
+                "web": 12
+            }
+        },
+        "availableMethods": [
+            "SMS",
+            "PayControl",
+            "КЭП на токене"
+        ],
+        "claims": 2
+    },
+    {
+        "clientId": "client_5",
+        "organizationId": "organization_5",
+        "segment": "Малый бизнес",
+        "role": "Сотрудник",
+        "organizations": 29,
+        "currentMethod": "КЭП на токене",
+        "mobileApp": false,
+        "signatures": {
+            "common": {
+                "mobile": 19,
+                "web": 18
+            },
+            "special": {
+                "mobile": 7,
+                "web": 12
+            }
+        },
+        "availableMethods": [
+            "КЭП на токене",
+            "SMS",
+            "PayControl"
+        ],
+        "claims": 3
+    },
+    {
+        "clientId": "client_6",
+        "organizationId": "organization_6",
+        "segment": "Крупный бизнес",
+        "role": "Сотрудник",
+        "organizations": 2,
+        "currentMethod": "PayControl",
+        "mobileApp": false,
+        "signatures": {
+            "common": {
+                "mobile": 12,
+                "web": 60
+            },
+            "special": {
+                "mobile": 4,
+                "web": 4
+            }
+        },
+        "availableMethods": [
+            "PayControl"
+        ],
+        "claims": 3
+    },
+    {
+        "clientId": "client_7",
+        "organizationId": "organization_7",
+        "segment": "Крупный бизнес",
+        "role": "Сотрудник",
+        "organizations": 15,
+        "currentMethod": "SMS",
+        "mobileApp": false,
+        "signatures": {
+            "common": {
+                "mobile": 36,
+                "web": 90
+            },
+            "special": {
+                "mobile": 16,
+                "web": 6
+            }
+        },
+        "availableMethods": [
+            "КЭП в приложении",
+            "PayControl",
+            "КЭП на токене",
+            "SMS"
+        ],
+        "claims": 2
+    },
+    {
+        "clientId": "client_8",
+        "organizationId": "organization_8",
+        "segment": "Средний бизнес",
+        "role": "ЕИО",
+        "organizations": 212,
+        "currentMethod": "КЭП в приложении",
+        "mobileApp": false,
+        "signatures": {
+            "common": {
+                "mobile": 36,
+                "web": 48
+            },
+            "special": {
+                "mobile": 0,
+                "web": 0
+            }
+        },
+        "availableMethods": [
+            "КЭП на токене",
+            "SMS",
+            "КЭП в приложении"
+        ],
+        "claims": 0
+    },
+    {
+        "clientId": "client_9",
+        "organizationId": "organization_9",
+        "segment": "Крупный бизнес",
+        "role": "Сотрудник",
+        "organizations": 82,
+        "currentMethod": "SMS",
+        "mobileApp": true,
+        "signatures": {
+            "common": {
+                "mobile": 2,
+                "web": 28
+            },
+            "special": {
+                "mobile": 16,
+                "web": 2
+            }
+        },
+        "availableMethods": [
+            "SMS",
+            "КЭП в приложении",
+            "PayControl"
+        ],
+        "claims": 2
+    },
+    {
+        "clientId": "client_10",
+        "organizationId": "organization_10",
+        "segment": "Средний бизнес",
+        "role": "Сотрудник",
+        "organizations": 123,
+        "currentMethod": "КЭП на токене",
+        "mobileApp": false,
+        "signatures": {
+            "common": {
+                "mobile": 15,
+                "web": 70
+            },
+            "special": {
+                "mobile": 4,
+                "web": 1
+            }
+        },
+        "availableMethods": [
+            "PayControl",
+            "КЭП на токене",
+            "SMS",
+            "КЭП в приложении"
+        ],
+        "claims": 1
+    },
+    {
+        "clientId": "client_11",
+        "organizationId": "organization_11",
+        "segment": "Средний бизнес",
+        "role": "Сотрудник",
+        "organizations": 153,
+        "currentMethod": "PayControl",
+        "mobileApp": true,
+        "signatures": {
+            "common": {
+                "mobile": 22,
+                "web": 0
+            },
+            "special": {
+                "mobile": 1,
+                "web": 15
+            }
+        },
+        "availableMethods": [
+            "КЭП в приложении",
+            "SMS"
+        ],
+        "claims": 4
+    },
+    {
+        "clientId": "client_12",
+        "organizationId": "organization_12",
+        "segment": "Крупный бизнес",
+        "role": "Сотрудник",
+        "organizations": 96,
+        "currentMethod": "PayControl",
+        "mobileApp": true,
+        "signatures": {
+            "common": {
+                "mobile": 38,
+                "web": 90
+            },
+            "special": {
+                "mobile": 10,
+                "web": 10
+            }
+        },
+        "availableMethods": [
+            "КЭП на токене",
+            "PayControl"
+        ],
+        "claims": 5
+    },
+    {
+        "clientId": "client_13",
+        "organizationId": "organization_13",
+        "segment": "Средний бизнес",
+        "role": "Сотрудник",
+        "organizations": 72,
+        "currentMethod": "КЭП в приложении",
+        "mobileApp": false,
+        "signatures": {
+            "common": {
+                "mobile": 7,
+                "web": 67
+            },
+            "special": {
+                "mobile": 3,
+                "web": 4
+            }
+        },
+        "availableMethods": [
+            "КЭП на токене"
+        ],
+        "claims": 4
+    },
+    {
+        "clientId": "client_14",
+        "organizationId": "organization_14",
+        "segment": "Малый бизнес",
+        "role": "ЕИО",
+        "organizations": 156,
+        "currentMethod": "SMS",
+        "mobileApp": true,
+        "signatures": {
+            "common": {
+                "mobile": 32,
+                "web": 8
+            },
+            "special": {
+                "mobile": 0,
+                "web": 40
+            }
+        },
+        "availableMethods": [
+            "КЭП на токене",
+            "PayControl",
+            "SMS",
+            "КЭП в приложении"
+        ],
+        "claims": 1
+    },
+    {
+        "clientId": "client_15",
+        "organizationId": "organization_15",
+        "segment": "Крупный бизнес",
+        "role": "Сотрудник",
+        "organizations": 111,
+        "currentMethod": "SMS",
+        "mobileApp": false,
+        "signatures": {
+            "common": {
+                "mobile": 28,
+                "web": 80
+            },
+            "special": {
+                "mobile": 2,
+                "web": 18
+            }
+        },
+        "availableMethods": [
+            "КЭП в приложении",
+            "КЭП на токене",
+            "PayControl"
+        ],
+        "claims": 5
+    },
+    {
+        "clientId": "client_16",
+        "organizationId": "organization_16",
+        "segment": "Средний бизнес",
+        "role": "Сотрудник",
+        "organizations": 126,
+        "currentMethod": "SMS",
+        "mobileApp": true,
+        "signatures": {
+            "common": {
+                "mobile": 25,
+                "web": 12
+            },
+            "special": {
+                "mobile": 1,
+                "web": 6
+            }
+        },
+        "availableMethods": [
+            "PayControl",
+            "КЭП на токене"
+        ],
+        "claims": 4
+    },
+    {
+        "clientId": "client_17",
+        "organizationId": "organization_17",
+        "segment": "Малый бизнес",
+        "role": "Сотрудник",
+        "organizations": 194,
+        "currentMethod": "PayControl",
+        "mobileApp": false,
+        "signatures": {
+            "common": {
+                "mobile": 19,
+                "web": 16
+            },
+            "special": {
+                "mobile": 1,
+                "web": 18
+            }
+        },
+        "availableMethods": [
+            "SMS",
+            "PayControl"
+        ],
+        "claims": 0
+    },
+    {
+        "clientId": "client_18",
+        "organizationId": "organization_18",
+        "segment": "Средний бизнес",
+        "role": "Сотрудник",
+        "organizations": 165,
+        "currentMethod": "SMS",
+        "mobileApp": false,
+        "signatures": {
+            "common": {
+                "mobile": 18,
+                "web": 67
+            },
+            "special": {
+                "mobile": 10,
+                "web": 3
+            }
+        },
+        "availableMethods": [
+            "КЭП в приложении",
+            "PayControl",
+            "SMS",
+            "КЭП на токене"
+        ],
+        "claims": 4
+    },
+    {
+        "clientId": "client_19",
+        "organizationId": "organization_19",
+        "segment": "Крупный бизнес",
+        "role": "ЕИО",
+        "organizations": 291,
+        "currentMethod": "КЭП в приложении",
+        "mobileApp": false,
+        "signatures": {
+            "common": {
+                "mobile": 32,
+                "web": 40
+            },
+            "special": {
+                "mobile": 24,
+                "web": 8
+            }
+        },
+        "availableMethods": [
+            "КЭП в приложении",
+            "PayControl",
+            "КЭП на токене"
+        ],
+        "claims": 0
+    },
+    {
+        "clientId": "client_20",
+        "organizationId": "organization_20",
+        "segment": "Крупный бизнес",
+        "role": "Сотрудник",
+        "organizations": 47,
+        "currentMethod": "SMS",
+        "mobileApp": false,
+        "signatures": {
+            "common": {
+                "mobile": 36,
+                "web": 24
+            },
+            "special": {
+                "mobile": 2,
+                "web": 36
+            }
+        },
+        "availableMethods": [
+            "КЭП на токене",
+            "КЭП в приложении",
+            "SMS"
+        ],
+        "claims": 3
+    },
+    {
+        "clientId": "client_21",
+        "organizationId": "organization_21",
+        "segment": "Средний бизнес",
+        "role": "Сотрудник",
+        "organizations": 214,
+        "currentMethod": "PayControl",
+        "mobileApp": false,
+        "signatures": {
+            "common": {
+                "mobile": 7,
+                "web": 52
+            },
+            "special": {
+                "mobile": 4,
+                "web": 12
+            }
+        },
+        "availableMethods": [
+            "PayControl",
+            "КЭП на токене",
+            "КЭП в приложении",
+            "SMS"
+        ],
+        "claims": 4
+    },
+    {
+        "clientId": "client_22",
+        "organizationId": "organization_22",
+        "segment": "Малый бизнес",
+        "role": "Сотрудник",
+        "organizations": 14,
+        "currentMethod": "PayControl",
+        "mobileApp": false,
+        "signatures": {
+            "common": {
+                "mobile": 15,
+                "web": 40
+            },
+            "special": {
+                "mobile": 6,
+                "web": 9
+            }
+        },
+        "availableMethods": [
+            "КЭП на токене"
+        ],
+        "claims": 4
+    },
+    {
+        "clientId": "client_23",
+        "organizationId": "organization_23",
+        "segment": "Малый бизнес",
+        "role": "ЕИО",
+        "organizations": 102,
+        "currentMethod": "КЭП в приложении",
+        "mobileApp": true,
+        "signatures": {
+            "common": {
+                "mobile": 2,
+                "web": 74
+            },
+            "special": {
+                "mobile": 14,
+                "web": 0
+            }
+        },
+        "availableMethods": [
+            "КЭП на токене",
+            "SMS",
+            "КЭП в приложении"
+        ],
+        "claims": 0
+    },
+    {
+        "clientId": "client_24",
+        "organizationId": "organization_24",
+        "segment": "Крупный бизнес",
+        "role": "ЕИО",
+        "organizations": 211,
+        "currentMethod": "SMS",
+        "mobileApp": true,
+        "signatures": {
+            "common": {
+                "mobile": 64,
+                "web": 132
+            },
+            "special": {
+                "mobile": 32,
+                "web": 48
+            }
+        },
+        "availableMethods": [
+            "КЭП на токене",
+            "SMS",
+            "PayControl",
+            "КЭП в приложении"
+        ],
+        "claims": 2
+    },
+    {
+        "clientId": "client_25",
+        "organizationId": "organization_25",
+        "segment": "Малый бизнес",
+        "role": "Сотрудник",
+        "organizations": 286,
+        "currentMethod": "PayControl",
+        "mobileApp": true,
+        "signatures": {
+            "common": {
+                "mobile": 16,
+                "web": 30
+            },
+            "special": {
+                "mobile": 7,
+                "web": 11
+            }
+        },
+        "availableMethods": [
+            "PayControl",
+            "КЭП в приложении",
+            "КЭП на токене"
+        ],
+        "claims": 1
+    },
+    {
+        "clientId": "client_26",
+        "organizationId": "organization_26",
+        "segment": "Крупный бизнес",
+        "role": "ЕИО",
+        "organizations": 165,
+        "currentMethod": "PayControl",
+        "mobileApp": true,
+        "signatures": {
+            "common": {
+                "mobile": 40,
+                "web": 24
+            },
+            "special": {
+                "mobile": 40,
+                "web": 64
+            }
+        },
+        "availableMethods": [
+            "КЭП в приложении",
+            "PayControl",
+            "КЭП на токене",
+            "SMS"
+        ],
+        "claims": 5
+    },
+    {
+        "clientId": "client_27",
+        "organizationId": "organization_27",
+        "segment": "Крупный бизнес",
+        "role": "Сотрудник",
+        "organizations": 154,
+        "currentMethod": "SMS",
+        "mobileApp": false,
+        "signatures": {
+            "common": {
+                "mobile": 22,
+                "web": 20
+            },
+            "special": {
+                "mobile": 16,
+                "web": 0
+            }
+        },
+        "availableMethods": [
+            "SMS",
+            "КЭП на токене",
+            "КЭП в приложении",
+            "PayControl"
+        ],
+        "claims": 4
+    },
+    {
+        "clientId": "client_28",
+        "organizationId": "organization_28",
+        "segment": "Крупный бизнес",
+        "role": "Сотрудник",
+        "organizations": 294,
+        "currentMethod": "PayControl",
+        "mobileApp": false,
+        "signatures": {
+            "common": {
+                "mobile": 32,
+                "web": 60
+            },
+            "special": {
+                "mobile": 16,
+                "web": 32
+            }
+        },
+        "availableMethods": [
+            "SMS",
+            "КЭП в приложении",
+            "PayControl"
+        ],
+        "claims": 5
+    },
+    {
+        "clientId": "client_29",
+        "organizationId": "organization_29",
+        "segment": "Крупный бизнес",
+        "role": "ЕИО",
+        "organizations": 65,
+        "currentMethod": "КЭП в приложении",
+        "mobileApp": false,
+        "signatures": {
+            "common": {
+                "mobile": 44,
+                "web": 160
+            },
+            "special": {
+                "mobile": 40,
+                "web": 76
+            }
+        },
+        "availableMethods": [
+            "КЭП в приложении",
+            "PayControl",
+            "КЭП на токене"
+        ],
+        "claims": 4
+    },
+    {
+        "clientId": "client_30",
+        "organizationId": "organization_30",
+        "segment": "Малый бизнес",
+        "role": "Сотрудник",
+        "organizations": 207,
+        "currentMethod": "SMS",
+        "mobileApp": false,
+        "signatures": {
+            "common": {
+                "mobile": 2,
+                "web": 1
+            },
+            "special": {
+                "mobile": 3,
+                "web": 10
+            }
+        },
+        "availableMethods": [
+            "SMS",
+            "PayControl",
+            "КЭП на токене"
+        ],
+        "claims": 4
+    },
+    {
+        "clientId": "client_31",
+        "organizationId": "organization_31",
+        "segment": "Крупный бизнес",
+        "role": "ЕИО",
+        "organizations": 234,
+        "currentMethod": "SMS",
+        "mobileApp": false,
+        "signatures": {
+            "common": {
+                "mobile": 80,
+                "web": 8
+            },
+            "special": {
+                "mobile": 0,
+                "web": 52
+            }
+        },
+        "availableMethods": [
+            "КЭП на токене",
+            "PayControl",
+            "SMS"
+        ],
+        "claims": 1
+    },
+    {
+        "clientId": "client_32",
+        "organizationId": "organization_32",
+        "segment": "Малый бизнес",
+        "role": "ЕИО",
+        "organizations": 6,
+        "currentMethod": "КЭП на токене",
+        "mobileApp": false,
+        "signatures": {
+            "common": {
+                "mobile": 30,
+                "web": 52
+            },
+            "special": {
+                "mobile": 10,
+                "web": 18
+            }
+        },
+        "availableMethods": [
+            "PayControl",
+            "SMS"
+        ],
+        "claims": 3
+    },
+    {
+        "clientId": "client_33",
+        "organizationId": "organization_33",
+        "segment": "Крупный бизнес",
+        "role": "ЕИО",
+        "organizations": 10,
+        "currentMethod": "КЭП в приложении",
+        "mobileApp": false,
+        "signatures": {
+            "common": {
+                "mobile": 20,
+                "web": 192
+            },
+            "special": {
+                "mobile": 4,
+                "web": 0
+            }
+        },
+        "availableMethods": [
+            "КЭП на токене",
+            "SMS",
+            "КЭП в приложении",
+            "PayControl"
+        ],
+        "claims": 1
+    },
+    {
+        "clientId": "client_34",
+        "organizationId": "organization_34",
+        "segment": "Малый бизнес",
+        "role": "Сотрудник",
+        "organizations": 106,
+        "currentMethod": "КЭП в приложении",
+        "mobileApp": true,
+        "signatures": {
+            "common": {
+                "mobile": 12,
+                "web": 7
+            },
+            "special": {
+                "mobile": 5,
+                "web": 13
+            }
+        },
+        "availableMethods": [
+            "КЭП в приложении",
+            "PayControl",
+            "SMS",
+            "КЭП на токене"
+        ],
+        "claims": 1
+    },
+    {
+        "clientId": "client_35",
+        "organizationId": "organization_35",
+        "segment": "Крупный бизнес",
+        "role": "ЕИО",
+        "organizations": 216,
+        "currentMethod": "КЭП в приложении",
+        "mobileApp": true,
+        "signatures": {
+            "common": {
+                "mobile": 56,
+                "web": 56
+            },
+            "special": {
+                "mobile": 12,
+                "web": 12
+            }
+        },
+        "availableMethods": [
+            "PayControl",
+            "КЭП в приложении",
+            "КЭП на токене"
+        ],
+        "claims": 4
+    },
+    {
+        "clientId": "client_36",
+        "organizationId": "organization_36",
+        "segment": "Крупный бизнес",
+        "role": "Сотрудник",
+        "organizations": 244,
+        "currentMethod": "PayControl",
+        "mobileApp": true,
+        "signatures": {
+            "common": {
+                "mobile": 0,
+                "web": 34
+            },
+            "special": {
+                "mobile": 10,
+                "web": 24
+            }
+        },
+        "availableMethods": [
+            "SMS",
+            "КЭП на токене",
+            "КЭП в приложении",
+            "PayControl"
+        ],
+        "claims": 5
+    },
+    {
+        "clientId": "client_37",
+        "organizationId": "organization_37",
+        "segment": "Крупный бизнес",
+        "role": "ЕИО",
+        "organizations": 288,
+        "currentMethod": "КЭП в приложении",
+        "mobileApp": true,
+        "signatures": {
+            "common": {
+                "mobile": 8,
+                "web": 108
+            },
+            "special": {
+                "mobile": 36,
+                "web": 24
+            }
+        },
+        "availableMethods": [
+            "КЭП на токене",
+            "КЭП в приложении",
+            "SMS"
+        ],
+        "claims": 1
+    },
+    {
+        "clientId": "client_38",
+        "organizationId": "organization_38",
+        "segment": "Средний бизнес",
+        "role": "Сотрудник",
+        "organizations": 294,
+        "currentMethod": "КЭП на токене",
+        "mobileApp": false,
+        "signatures": {
+            "common": {
+                "mobile": 12,
+                "web": 16
+            },
+            "special": {
+                "mobile": 15,
+                "web": 6
+            }
+        },
+        "availableMethods": [
+            "PayControl",
+            "SMS",
+            "КЭП на токене",
+            "КЭП в приложении"
+        ],
+        "claims": 2
+    },
+    {
+        "clientId": "client_39",
+        "organizationId": "organization_39",
+        "segment": "Малый бизнес",
+        "role": "Сотрудник",
+        "organizations": 239,
+        "currentMethod": "КЭП в приложении",
+        "mobileApp": false,
+        "signatures": {
+            "common": {
+                "mobile": 10,
+                "web": 20
+            },
+            "special": {
+                "mobile": 0,
+                "web": 0
+            }
+        },
+        "availableMethods": [
+            "SMS",
+            "КЭП в приложении",
+            "КЭП на токене",
+            "PayControl"
+        ],
+        "claims": 5
+    },
+    {
+        "clientId": "client_40",
+        "organizationId": "organization_40",
+        "segment": "Малый бизнес",
+        "role": "ЕИО",
+        "organizations": 158,
+        "currentMethod": "КЭП на токене",
+        "mobileApp": false,
+        "signatures": {
+            "common": {
+                "mobile": 14,
+                "web": 72
+            },
+            "special": {
+                "mobile": 2,
+                "web": 10
+            }
+        },
+        "availableMethods": [
+            "КЭП на токене",
+            "КЭП в приложении"
+        ],
+        "claims": 1
+    },
+    {
+        "clientId": "client_41",
+        "organizationId": "organization_41",
+        "segment": "Крупный бизнес",
+        "role": "Сотрудник",
+        "organizations": 115,
+        "currentMethod": "SMS",
+        "mobileApp": false,
+        "signatures": {
+            "common": {
+                "mobile": 22,
+                "web": 54
+            },
+            "special": {
+                "mobile": 14,
+                "web": 8
+            }
+        },
+        "availableMethods": [
+            "SMS",
+            "PayControl",
+            "КЭП в приложении"
+        ],
+        "claims": 4
+    },
+    {
+        "clientId": "client_42",
+        "organizationId": "organization_42",
+        "segment": "Крупный бизнес",
+        "role": "ЕИО",
+        "organizations": 186,
+        "currentMethod": "КЭП в приложении",
+        "mobileApp": false,
+        "signatures": {
+            "common": {
+                "mobile": 32,
+                "web": 200
+            },
+            "special": {
+                "mobile": 4,
+                "web": 48
+            }
+        },
+        "availableMethods": [
+            "SMS",
+            "КЭП на токене",
+            "КЭП в приложении",
+            "PayControl"
+        ],
+        "claims": 1
+    },
+    {
+        "clientId": "client_43",
+        "organizationId": "organization_43",
+        "segment": "Малый бизнес",
+        "role": "ЕИО",
+        "organizations": 298,
+        "currentMethod": "SMS",
+        "mobileApp": true,
+        "signatures": {
+            "common": {
+                "mobile": 22,
+                "web": 10
+            },
+            "special": {
+                "mobile": 6,
+                "web": 26
+            }
+        },
+        "availableMethods": [
+            "PayControl",
+            "КЭП на токене",
+            "SMS"
+        ],
+        "claims": 5
+    },
+    {
+        "clientId": "client_44",
+        "organizationId": "organization_44",
+        "segment": "Малый бизнес",
+        "role": "ЕИО",
+        "organizations": 146,
+        "currentMethod": "КЭП на токене",
+        "mobileApp": true,
+        "signatures": {
+            "common": {
+                "mobile": 32,
+                "web": 60
+            },
+            "special": {
+                "mobile": 0,
+                "web": 36
+            }
+        },
+        "availableMethods": [
+            "КЭП на токене",
+            "КЭП в приложении"
+        ],
+        "claims": 4
+    },
+    {
+        "clientId": "client_45",
+        "organizationId": "organization_45",
+        "segment": "Крупный бизнес",
+        "role": "ЕИО",
+        "organizations": 287,
+        "currentMethod": "КЭП в приложении",
+        "mobileApp": false,
+        "signatures": {
+            "common": {
+                "mobile": 16,
+                "web": 68
+            },
+            "special": {
+                "mobile": 4,
+                "web": 76
+            }
+        },
+        "availableMethods": [
+            "PayControl",
+            "КЭП в приложении",
+            "КЭП на токене"
+        ],
+        "claims": 0
+    },
+    {
+        "clientId": "client_46",
+        "organizationId": "organization_46",
+        "segment": "Средний бизнес",
+        "role": "Сотрудник",
+        "organizations": 251,
+        "currentMethod": "PayControl",
+        "mobileApp": false,
+        "signatures": {
+            "common": {
+                "mobile": 19,
+                "web": 61
+            },
+            "special": {
+                "mobile": 15,
+                "web": 22
+            }
+        },
+        "availableMethods": [
+            "КЭП в приложении"
+        ],
+        "claims": 4
+    },
+    {
+        "clientId": "client_47",
+        "organizationId": "organization_47",
+        "segment": "Средний бизнес",
+        "role": "Сотрудник",
+        "organizations": 297,
+        "currentMethod": "SMS",
+        "mobileApp": true,
+        "signatures": {
+            "common": {
+                "mobile": 25,
+                "web": 75
+            },
+            "special": {
+                "mobile": 0,
+                "web": 16
+            }
+        },
+        "availableMethods": [
+            "КЭП на токене",
+            "PayControl",
+            "SMS"
+        ],
+        "claims": 1
+    },
+    {
+        "clientId": "client_48",
+        "organizationId": "organization_48",
+        "segment": "Средний бизнес",
+        "role": "Сотрудник",
+        "organizations": 161,
+        "currentMethod": "SMS",
+        "mobileApp": true,
+        "signatures": {
+            "common": {
+                "mobile": 9,
+                "web": 15
+            },
+            "special": {
+                "mobile": 6,
+                "web": 7
+            }
+        },
+        "availableMethods": [
+            "SMS",
+            "КЭП в приложении",
+            "PayControl",
+            "КЭП на токене"
+        ],
+        "claims": 0
+    },
+    {
+        "clientId": "client_49",
+        "organizationId": "organization_49",
+        "segment": "Малый бизнес",
+        "role": "ЕИО",
+        "organizations": 36,
+        "currentMethod": "SMS",
+        "mobileApp": false,
+        "signatures": {
+            "common": {
+                "mobile": 40,
+                "web": 30
+            },
+            "special": {
+                "mobile": 4,
+                "web": 18
+            }
+        },
+        "availableMethods": [
+            "КЭП на токене",
+            "SMS"
+        ],
+        "claims": 0
+    },
+    {
+        "clientId": "client_50",
+        "organizationId": "organization_50",
+        "segment": "Крупный бизнес",
+        "role": "ЕИО",
+        "organizations": 167,
+        "currentMethod": "КЭП на токене",
+        "mobileApp": false,
+        "signatures": {
+            "common": {
+                "mobile": 28,
+                "web": 124
+            },
+            "special": {
+                "mobile": 4,
+                "web": 36
+            }
+        },
+        "availableMethods": [
+            "PayControl",
+            "КЭП на токене"
+        ],
+        "claims": 4
+    },
+    {
+        "clientId": "client_51",
+        "organizationId": "organization_51",
+        "segment": "Крупный бизнес",
+        "role": "ЕИО",
+        "organizations": 76,
+        "currentMethod": "PayControl",
+        "mobileApp": false,
+        "signatures": {
+            "common": {
+                "mobile": 32,
+                "web": 48
+            },
+            "special": {
+                "mobile": 0,
+                "web": 60
+            }
+        },
+        "availableMethods": [
+            "PayControl",
+            "SMS",
+            "КЭП в приложении"
+        ],
+        "claims": 1
+    },
+    {
+        "clientId": "client_52",
+        "organizationId": "organization_52",
+        "segment": "Средний бизнес",
+        "role": "Сотрудник",
+        "organizations": 192,
+        "currentMethod": "КЭП на токене",
+        "mobileApp": false,
+        "signatures": {
+            "common": {
+                "mobile": 24,
+                "web": 72
+            },
+            "special": {
+                "mobile": 10,
+                "web": 1
+            }
+        },
+        "availableMethods": [
+            "SMS",
+            "КЭП на токене",
+            "PayControl"
+        ],
+        "claims": 1
+    },
+    {
+        "clientId": "client_53",
+        "organizationId": "organization_53",
+        "segment": "Средний бизнес",
+        "role": "Сотрудник",
+        "organizations": 187,
+        "currentMethod": "КЭП на токене",
+        "mobileApp": true,
+        "signatures": {
+            "common": {
+                "mobile": 10,
+                "web": 51
+            },
+            "special": {
+                "mobile": 15,
+                "web": 0
+            }
+        },
+        "availableMethods": [
+            "КЭП в приложении",
+            "PayControl",
+            "SMS",
+            "КЭП на токене"
+        ],
+        "claims": 3
+    },
+    {
+        "clientId": "client_54",
+        "organizationId": "organization_54",
+        "segment": "Крупный бизнес",
+        "role": "Сотрудник",
+        "organizations": 31,
+        "currentMethod": "SMS",
+        "mobileApp": true,
+        "signatures": {
+            "common": {
+                "mobile": 16,
+                "web": 88
+            },
+            "special": {
+                "mobile": 0,
+                "web": 4
+            }
+        },
+        "availableMethods": [
+            "КЭП в приложении"
+        ],
+        "claims": 0
+    },
+    {
+        "clientId": "client_55",
+        "organizationId": "organization_55",
+        "segment": "Крупный бизнес",
+        "role": "ЕИО",
+        "organizations": 97,
+        "currentMethod": "PayControl",
+        "mobileApp": true,
+        "signatures": {
+            "common": {
+                "mobile": 0,
+                "web": 184
+            },
+            "special": {
+                "mobile": 36,
+                "web": 16
+            }
+        },
+        "availableMethods": [
+            "PayControl",
+            "КЭП в приложении",
+            "SMS"
+        ],
+        "claims": 3
+    },
+    {
+        "clientId": "client_56",
+        "organizationId": "organization_56",
+        "segment": "Средний бизнес",
+        "role": "Сотрудник",
+        "organizations": 134,
+        "currentMethod": "КЭП на токене",
+        "mobileApp": false,
+        "signatures": {
+            "common": {
+                "mobile": 22,
+                "web": 4
+            },
+            "special": {
+                "mobile": 7,
+                "web": 7
+            }
+        },
+        "availableMethods": [
+            "SMS",
+            "PayControl"
+        ],
+        "claims": 0
+    },
+    {
+        "clientId": "client_57",
+        "organizationId": "organization_57",
+        "segment": "Малый бизнес",
+        "role": "ЕИО",
+        "organizations": 75,
+        "currentMethod": "КЭП на токене",
+        "mobileApp": true,
+        "signatures": {
+            "common": {
+                "mobile": 14,
+                "web": 44
+            },
+            "special": {
+                "mobile": 6,
+                "web": 24
+            }
+        },
+        "availableMethods": [
+            "КЭП в приложении"
+        ],
+        "claims": 2
+    },
+    {
+        "clientId": "client_58",
+        "organizationId": "organization_58",
+        "segment": "Крупный бизнес",
+        "role": "Сотрудник",
+        "organizations": 283,
+        "currentMethod": "КЭП на токене",
+        "mobileApp": true,
+        "signatures": {
+            "common": {
+                "mobile": 16,
+                "web": 72
+            },
+            "special": {
+                "mobile": 14,
+                "web": 36
+            }
+        },
+        "availableMethods": [
+            "КЭП в приложении",
+            "PayControl",
+            "КЭП на токене"
+        ],
+        "claims": 0
+    },
+    {
+        "clientId": "client_59",
+        "organizationId": "organization_59",
+        "segment": "Средний бизнес",
+        "role": "Сотрудник",
+        "organizations": 68,
+        "currentMethod": "PayControl",
+        "mobileApp": false,
+        "signatures": {
+            "common": {
+                "mobile": 4,
+                "web": 58
+            },
+            "special": {
+                "mobile": 6,
+                "web": 12
+            }
+        },
+        "availableMethods": [
+            "КЭП на токене",
+            "КЭП в приложении",
+            "SMS",
+            "PayControl"
+        ],
+        "claims": 0
+    },
+    {
+        "clientId": "client_60",
+        "organizationId": "organization_60",
+        "segment": "Средний бизнес",
+        "role": "Сотрудник",
+        "organizations": 255,
+        "currentMethod": "КЭП на токене",
+        "mobileApp": true,
+        "signatures": {
+            "common": {
+                "mobile": 19,
+                "web": 42
+            },
+            "special": {
+                "mobile": 9,
+                "web": 24
+            }
+        },
+        "availableMethods": [
+            "КЭП в приложении",
+            "PayControl",
+            "КЭП на токене",
+            "SMS"
+        ],
+        "claims": 3
+    },
+    {
+        "clientId": "client_61",
+        "organizationId": "organization_61",
+        "segment": "Средний бизнес",
+        "role": "Сотрудник",
+        "organizations": 84,
+        "currentMethod": "КЭП в приложении",
+        "mobileApp": false,
+        "signatures": {
+            "common": {
+                "mobile": 18,
+                "web": 19
+            },
+            "special": {
+                "mobile": 6,
+                "web": 13
+            }
+        },
+        "availableMethods": [
+            "КЭП в приложении",
+            "КЭП на токене",
+            "SMS"
+        ],
+        "claims": 5
+    },
+    {
+        "clientId": "client_62",
+        "organizationId": "organization_62",
+        "segment": "Малый бизнес",
+        "role": "Сотрудник",
+        "organizations": 281,
+        "currentMethod": "КЭП в приложении",
+        "mobileApp": true,
+        "signatures": {
+            "common": {
+                "mobile": 2,
+                "web": 17
+            },
+            "special": {
+                "mobile": 2,
+                "web": 14
+            }
+        },
+        "availableMethods": [
+            "SMS",
+            "КЭП на токене"
+        ],
+        "claims": 3
+    },
+    {
+        "clientId": "client_63",
+        "organizationId": "organization_63",
+        "segment": "Малый бизнес",
+        "role": "Сотрудник",
+        "organizations": 43,
+        "currentMethod": "КЭП на токене",
+        "mobileApp": true,
+        "signatures": {
+            "common": {
+                "mobile": 16,
+                "web": 25
+            },
+            "special": {
+                "mobile": 5,
+                "web": 18
+            }
+        },
+        "availableMethods": [
+            "КЭП на токене"
+        ],
+        "claims": 3
+    },
+    {
+        "clientId": "client_64",
+        "organizationId": "organization_64",
+        "segment": "Крупный бизнес",
+        "role": "Сотрудник",
+        "organizations": 81,
+        "currentMethod": "КЭП на токене",
+        "mobileApp": false,
+        "signatures": {
+            "common": {
+                "mobile": 24,
+                "web": 66
+            },
+            "special": {
+                "mobile": 6,
+                "web": 4
+            }
+        },
+        "availableMethods": [
+            "КЭП на токене",
+            "SMS"
+        ],
+        "claims": 1
+    },
+    {
+        "clientId": "client_65",
+        "organizationId": "organization_65",
+        "segment": "Малый бизнес",
+        "role": "ЕИО",
+        "organizations": 102,
+        "currentMethod": "КЭП на токене",
+        "mobileApp": true,
+        "signatures": {
+            "common": {
+                "mobile": 28,
+                "web": 28
+            },
+            "special": {
+                "mobile": 8,
+                "web": 8
+            }
+        },
+        "availableMethods": [
+            "КЭП в приложении",
+            "PayControl",
+            "КЭП на токене",
+            "SMS"
+        ],
+        "claims": 1
+    },
+    {
+        "clientId": "client_66",
+        "organizationId": "organization_66",
+        "segment": "Средний бизнес",
+        "role": "ЕИО",
+        "organizations": 249,
+        "currentMethod": "SMS",
+        "mobileApp": false,
+        "signatures": {
+            "common": {
+                "mobile": 48,
+                "web": 51
+            },
+            "special": {
+                "mobile": 24,
+                "web": 54
+            }
+        },
+        "availableMethods": [
+            "КЭП в приложении",
+            "КЭП на токене"
+        ],
+        "claims": 0
+    },
+    {
+        "clientId": "client_67",
+        "organizationId": "organization_67",
+        "segment": "Малый бизнес",
+        "role": "Сотрудник",
+        "organizations": 144,
+        "currentMethod": "КЭП в приложении",
+        "mobileApp": true,
+        "signatures": {
+            "common": {
+                "mobile": 7,
+                "web": 7
+            },
+            "special": {
+                "mobile": 8,
+                "web": 19
+            }
+        },
+        "availableMethods": [
+            "КЭП в приложении",
+            "КЭП на токене",
+            "PayControl"
+        ],
+        "claims": 4
+    },
+    {
+        "clientId": "client_68",
+        "organizationId": "organization_68",
+        "segment": "Средний бизнес",
+        "role": "ЕИО",
+        "organizations": 299,
+        "currentMethod": "SMS",
+        "mobileApp": true,
+        "signatures": {
+            "common": {
+                "mobile": 51,
+                "web": 51
+            },
+            "special": {
+                "mobile": 27,
+                "web": 60
+            }
+        },
+        "availableMethods": [
+            "PayControl",
+            "КЭП на токене"
+        ],
+        "claims": 0
+    },
+    {
+        "clientId": "client_69",
+        "organizationId": "organization_69",
+        "segment": "Средний бизнес",
+        "role": "ЕИО",
+        "organizations": 172,
+        "currentMethod": "PayControl",
+        "mobileApp": false,
+        "signatures": {
+            "common": {
+                "mobile": 57,
+                "web": 60
+            },
+            "special": {
+                "mobile": 27,
+                "web": 39
+            }
+        },
+        "availableMethods": [
+            "КЭП в приложении"
+        ],
+        "claims": 2
+    },
+    {
+        "clientId": "client_70",
+        "organizationId": "organization_70",
+        "segment": "Малый бизнес",
+        "role": "ЕИО",
+        "organizations": 29,
+        "currentMethod": "КЭП в приложении",
+        "mobileApp": true,
+        "signatures": {
+            "common": {
+                "mobile": 28,
+                "web": 0
+            },
+            "special": {
+                "mobile": 14,
+                "web": 14
+            }
+        },
+        "availableMethods": [
+            "КЭП на токене"
+        ],
+        "claims": 4
+    },
+    {
+        "clientId": "client_71",
+        "organizationId": "organization_71",
+        "segment": "Малый бизнес",
+        "role": "ЕИО",
+        "organizations": 233,
+        "currentMethod": "КЭП в приложении",
+        "mobileApp": true,
+        "signatures": {
+            "common": {
+                "mobile": 12,
+                "web": 76
+            },
+            "special": {
+                "mobile": 10,
+                "web": 36
+            }
+        },
+        "availableMethods": [
+            "КЭП на токене",
+            "КЭП в приложении",
+            "SMS",
+            "PayControl"
+        ],
+        "claims": 0
+    },
+    {
+        "clientId": "client_72",
+        "organizationId": "organization_72",
+        "segment": "Малый бизнес",
+        "role": "Сотрудник",
+        "organizations": 164,
+        "currentMethod": "КЭП на токене",
+        "mobileApp": false,
+        "signatures": {
+            "common": {
+                "mobile": 10,
+                "web": 17
+            },
+            "special": {
+                "mobile": 2,
+                "web": 20
+            }
+        },
+        "availableMethods": [
+            "КЭП на токене",
+            "SMS",
+            "КЭП в приложении",
+            "PayControl"
+        ],
+        "claims": 3
+    },
+    {
+        "clientId": "client_73",
+        "organizationId": "organization_73",
+        "segment": "Крупный бизнес",
+        "role": "ЕИО",
+        "organizations": 61,
+        "currentMethod": "КЭП на токене",
+        "mobileApp": false,
+        "signatures": {
+            "common": {
+                "mobile": 4,
+                "web": 128
+            },
+            "special": {
+                "mobile": 8,
+                "web": 16
+            }
+        },
+        "availableMethods": [
+            "PayControl",
+            "КЭП в приложении"
+        ],
+        "claims": 1
+    },
+    {
+        "clientId": "client_74",
+        "organizationId": "organization_74",
+        "segment": "Крупный бизнес",
+        "role": "ЕИО",
+        "organizations": 111,
+        "currentMethod": "КЭП на токене",
+        "mobileApp": false,
+        "signatures": {
+            "common": {
+                "mobile": 28,
+                "web": 100
+            },
+            "special": {
+                "mobile": 8,
+                "web": 4
+            }
+        },
+        "availableMethods": [
+            "КЭП на токене",
+            "SMS"
+        ],
+        "claims": 0
+    },
+    {
+        "clientId": "client_75",
+        "organizationId": "organization_75",
+        "segment": "Крупный бизнес",
+        "role": "Сотрудник",
+        "organizations": 66,
+        "currentMethod": "КЭП на токене",
+        "mobileApp": true,
+        "signatures": {
+            "common": {
+                "mobile": 26,
+                "web": 4
+            },
+            "special": {
+                "mobile": 16,
+                "web": 40
+            }
+        },
+        "availableMethods": [
+            "PayControl"
+        ],
+        "claims": 3
+    },
+    {
+        "clientId": "client_76",
+        "organizationId": "organization_76",
+        "segment": "Малый бизнес",
+        "role": "ЕИО",
+        "organizations": 66,
+        "currentMethod": "КЭП на токене",
+        "mobileApp": true,
+        "signatures": {
+            "common": {
+                "mobile": 24,
+                "web": 52
+            },
+            "special": {
+                "mobile": 18,
+                "web": 26
+            }
+        },
+        "availableMethods": [
+            "КЭП в приложении",
+            "КЭП на токене",
+            "PayControl",
+            "SMS"
+        ],
+        "claims": 1
+    },
+    {
+        "clientId": "client_77",
+        "organizationId": "organization_77",
+        "segment": "Средний бизнес",
+        "role": "Сотрудник",
+        "organizations": 164,
+        "currentMethod": "PayControl",
+        "mobileApp": false,
+        "signatures": {
+            "common": {
+                "mobile": 27,
+                "web": 39
+            },
+            "special": {
+                "mobile": 4,
+                "web": 16
+            }
+        },
+        "availableMethods": [
+            "КЭП на токене"
+        ],
+        "claims": 5
+    },
+    {
+        "clientId": "client_78",
+        "organizationId": "organization_78",
+        "segment": "Малый бизнес",
+        "role": "ЕИО",
+        "organizations": 14,
+        "currentMethod": "КЭП в приложении",
+        "mobileApp": true,
+        "signatures": {
+            "common": {
+                "mobile": 18,
+                "web": 14
+            },
+            "special": {
+                "mobile": 12,
+                "web": 2
+            }
+        },
+        "availableMethods": [
+            "КЭП в приложении",
+            "SMS",
+            "PayControl"
+        ],
+        "claims": 5
+    },
+    {
+        "clientId": "client_79",
+        "organizationId": "organization_79",
+        "segment": "Малый бизнес",
+        "role": "ЕИО",
+        "organizations": 156,
+        "currentMethod": "КЭП в приложении",
+        "mobileApp": true,
+        "signatures": {
+            "common": {
+                "mobile": 2,
+                "web": 52
+            },
+            "special": {
+                "mobile": 14,
+                "web": 20
+            }
+        },
+        "availableMethods": [
+            "КЭП в приложении",
+            "SMS",
+            "КЭП на токене",
+            "PayControl"
+        ],
+        "claims": 0
+    },
+    {
+        "clientId": "client_80",
+        "organizationId": "organization_80",
+        "segment": "Крупный бизнес",
+        "role": "Сотрудник",
+        "organizations": 21,
+        "currentMethod": "КЭП в приложении",
+        "mobileApp": true,
+        "signatures": {
+            "common": {
+                "mobile": 14,
+                "web": 22
+            },
+            "special": {
+                "mobile": 14,
+                "web": 10
+            }
+        },
+        "availableMethods": [
+            "КЭП в приложении",
+            "КЭП на токене",
+            "PayControl"
+        ],
+        "claims": 4
+    },
+    {
+        "clientId": "client_81",
+        "organizationId": "organization_81",
+        "segment": "Средний бизнес",
+        "role": "Сотрудник",
+        "organizations": 114,
+        "currentMethod": "PayControl",
+        "mobileApp": false,
+        "signatures": {
+            "common": {
+                "mobile": 4,
+                "web": 13
+            },
+            "special": {
+                "mobile": 9,
+                "web": 18
+            }
+        },
+        "availableMethods": [
+            "КЭП на токене",
+            "SMS",
+            "КЭП в приложении",
+            "PayControl"
+        ],
+        "claims": 4
+    },
+    {
+        "clientId": "client_82",
+        "organizationId": "organization_82",
+        "segment": "Средний бизнес",
+        "role": "Сотрудник",
+        "organizations": 249,
+        "currentMethod": "PayControl",
+        "mobileApp": false,
+        "signatures": {
+            "common": {
+                "mobile": 4,
+                "web": 22
+            },
+            "special": {
+                "mobile": 10,
+                "web": 1
+            }
+        },
+        "availableMethods": [
+            "КЭП на токене"
+        ],
+        "claims": 2
+    },
+    {
+        "clientId": "client_83",
+        "organizationId": "organization_83",
+        "segment": "Малый бизнес",
+        "role": "ЕИО",
+        "organizations": 276,
+        "currentMethod": "PayControl",
+        "mobileApp": true,
+        "signatures": {
+            "common": {
+                "mobile": 10,
+                "web": 28
+            },
+            "special": {
+                "mobile": 6,
+                "web": 10
+            }
+        },
+        "availableMethods": [
+            "КЭП на токене",
+            "SMS",
+            "КЭП в приложении"
+        ],
+        "claims": 4
+    },
+    {
+        "clientId": "client_84",
+        "organizationId": "organization_84",
+        "segment": "Крупный бизнес",
+        "role": "ЕИО",
+        "organizations": 60,
+        "currentMethod": "SMS",
+        "mobileApp": true,
+        "signatures": {
+            "common": {
+                "mobile": 60,
+                "web": 132
+            },
+            "special": {
+                "mobile": 0,
+                "web": 76
+            }
+        },
+        "availableMethods": [
+            "SMS",
+            "КЭП в приложении",
+            "PayControl",
+            "КЭП на токене"
+        ],
+        "claims": 0
+    },
+    {
+        "clientId": "client_85",
+        "organizationId": "organization_85",
+        "segment": "Крупный бизнес",
+        "role": "ЕИО",
+        "organizations": 22,
+        "currentMethod": "SMS",
+        "mobileApp": true,
+        "signatures": {
+            "common": {
+                "mobile": 52,
+                "web": 132
+            },
+            "special": {
+                "mobile": 12,
+                "web": 36
+            }
+        },
+        "availableMethods": [
+            "КЭП на токене",
+            "SMS",
+            "PayControl",
+            "КЭП в приложении"
+        ],
+        "claims": 2
+    },
+    {
+        "clientId": "client_86",
+        "organizationId": "organization_86",
+        "segment": "Средний бизнес",
+        "role": "Сотрудник",
+        "organizations": 141,
+        "currentMethod": "SMS",
+        "mobileApp": true,
+        "signatures": {
+            "common": {
+                "mobile": 30,
+                "web": 18
+            },
+            "special": {
+                "mobile": 4,
+                "web": 18
+            }
+        },
+        "availableMethods": [
+            "КЭП в приложении",
+            "SMS"
+        ],
+        "claims": 4
+    },
+    {
+        "clientId": "client_87",
+        "organizationId": "organization_87",
+        "segment": "Средний бизнес",
+        "role": "ЕИО",
+        "organizations": 106,
+        "currentMethod": "PayControl",
+        "mobileApp": true,
+        "signatures": {
+            "common": {
+                "mobile": 42,
+                "web": 123
+            },
+            "special": {
+                "mobile": 27,
+                "web": 51
+            }
+        },
+        "availableMethods": [
+            "КЭП на токене",
+            "PayControl",
+            "SMS",
+            "КЭП в приложении"
+        ],
+        "claims": 4
+    },
+    {
+        "clientId": "client_88",
+        "organizationId": "organization_88",
+        "segment": "Крупный бизнес",
+        "role": "Сотрудник",
+        "organizations": 193,
+        "currentMethod": "КЭП на токене",
+        "mobileApp": true,
+        "signatures": {
+            "common": {
+                "mobile": 6,
+                "web": 36
+            },
+            "special": {
+                "mobile": 2,
+                "web": 38
+            }
+        },
+        "availableMethods": [
+            "SMS",
+            "КЭП на токене",
+            "PayControl",
+            "КЭП в приложении"
+        ],
+        "claims": 1
+    },
+    {
+        "clientId": "client_89",
+        "organizationId": "organization_89",
+        "segment": "Малый бизнес",
+        "role": "Сотрудник",
+        "organizations": 125,
+        "currentMethod": "КЭП в приложении",
+        "mobileApp": true,
+        "signatures": {
+            "common": {
+                "mobile": 14,
+                "web": 18
+            },
+            "special": {
+                "mobile": 8,
+                "web": 10
+            }
+        },
+        "availableMethods": [
+            "SMS",
+            "КЭП в приложении",
+            "PayControl"
+        ],
+        "claims": 3
+    },
+    {
+        "clientId": "client_90",
+        "organizationId": "organization_90",
+        "segment": "Малый бизнес",
+        "role": "ЕИО",
+        "organizations": 230,
+        "currentMethod": "КЭП на токене",
+        "mobileApp": false,
+        "signatures": {
+            "common": {
+                "mobile": 20,
+                "web": 60
+            },
+            "special": {
+                "mobile": 10,
+                "web": 40
+            }
+        },
+        "availableMethods": [
+            "PayControl",
+            "КЭП на токене"
+        ],
+        "claims": 1
+    },
+    {
+        "clientId": "client_91",
+        "organizationId": "organization_91",
+        "segment": "Малый бизнес",
+        "role": "ЕИО",
+        "organizations": 157,
+        "currentMethod": "КЭП в приложении",
+        "mobileApp": false,
+        "signatures": {
+            "common": {
+                "mobile": 26,
+                "web": 14
+            },
+            "special": {
+                "mobile": 2,
+                "web": 14
+            }
+        },
+        "availableMethods": [
+            "PayControl",
+            "КЭП в приложении",
+            "SMS"
+        ],
+        "claims": 4
+    },
+    {
+        "clientId": "client_92",
+        "organizationId": "organization_92",
+        "segment": "Средний бизнес",
+        "role": "ЕИО",
+        "organizations": 187,
+        "currentMethod": "SMS",
+        "mobileApp": false,
+        "signatures": {
+            "common": {
+                "mobile": 9,
+                "web": 93
+            },
+            "special": {
+                "mobile": 15,
+                "web": 15
+            }
+        },
+        "availableMethods": [
+            "КЭП в приложении"
+        ],
+        "claims": 5
+    },
+    {
+        "clientId": "client_93",
+        "organizationId": "organization_93",
+        "segment": "Малый бизнес",
+        "role": "ЕИО",
+        "organizations": 269,
+        "currentMethod": "PayControl",
+        "mobileApp": false,
+        "signatures": {
+            "common": {
+                "mobile": 28,
+                "web": 18
+            },
+            "special": {
+                "mobile": 12,
+                "web": 30
+            }
+        },
+        "availableMethods": [
+            "КЭП на токене",
+            "PayControl",
+            "SMS",
+            "КЭП в приложении"
+        ],
+        "claims": 5
+    },
+    {
+        "clientId": "client_94",
+        "organizationId": "organization_94",
+        "segment": "Крупный бизнес",
+        "role": "ЕИО",
+        "organizations": 251,
+        "currentMethod": "КЭП в приложении",
+        "mobileApp": true,
+        "signatures": {
+            "common": {
+                "mobile": 52,
+                "web": 108
+            },
+            "special": {
+                "mobile": 16,
+                "web": 0
+            }
+        },
+        "availableMethods": [
+            "SMS",
+            "КЭП в приложении"
+        ],
+        "claims": 3
+    },
+    {
+        "clientId": "client_95",
+        "organizationId": "organization_95",
+        "segment": "Малый бизнес",
+        "role": "ЕИО",
+        "organizations": 295,
+        "currentMethod": "КЭП на токене",
+        "mobileApp": true,
+        "signatures": {
+            "common": {
+                "mobile": 18,
+                "web": 92
+            },
+            "special": {
+                "mobile": 18,
+                "web": 14
+            }
+        },
+        "availableMethods": [
+            "КЭП в приложении"
+        ],
+        "claims": 2
+    },
+    {
+        "clientId": "client_96",
+        "organizationId": "organization_96",
+        "segment": "Малый бизнес",
+        "role": "Сотрудник",
+        "organizations": 190,
+        "currentMethod": "SMS",
+        "mobileApp": true,
+        "signatures": {
+            "common": {
+                "mobile": 6,
+                "web": 46
+            },
+            "special": {
+                "mobile": 0,
+                "web": 1
+            }
+        },
+        "availableMethods": [
+            "PayControl",
+            "SMS"
+        ],
+        "claims": 5
+    },
+    {
+        "clientId": "client_97",
+        "organizationId": "organization_97",
+        "segment": "Средний бизнес",
+        "role": "ЕИО",
+        "organizations": 119,
+        "currentMethod": "PayControl",
+        "mobileApp": true,
+        "signatures": {
+            "common": {
+                "mobile": 18,
+                "web": 90
+            },
+            "special": {
+                "mobile": 9,
+                "web": 30
+            }
+        },
+        "availableMethods": [
+            "PayControl"
+        ],
+        "claims": 0
+    },
+    {
+        "clientId": "client_98",
+        "organizationId": "organization_98",
+        "segment": "Малый бизнес",
+        "role": "ЕИО",
+        "organizations": 26,
+        "currentMethod": "КЭП в приложении",
+        "mobileApp": false,
+        "signatures": {
+            "common": {
+                "mobile": 6,
+                "web": 72
+            },
+            "special": {
+                "mobile": 20,
+                "web": 16
+            }
+        },
+        "availableMethods": [
+            "SMS",
+            "КЭП в приложении",
+            "PayControl"
+        ],
+        "claims": 0
+    },
+    {
+        "clientId": "client_99",
+        "organizationId": "organization_99",
+        "segment": "Средний бизнес",
+        "role": "Сотрудник",
+        "organizations": 271,
+        "currentMethod": "PayControl",
+        "mobileApp": false,
+        "signatures": {
+            "common": {
+                "mobile": 21,
+                "web": 42
+            },
+            "special": {
+                "mobile": 15,
+                "web": 1
+            }
+        },
+        "availableMethods": [
+            "SMS",
+            "КЭП на токене",
+            "PayControl"
+        ],
+        "claims": 5
+    },
+    {
+        "clientId": "client_100",
+        "organizationId": "organization_100",
+        "segment": "Малый бизнес",
+        "role": "Сотрудник",
+        "organizations": 273,
+        "currentMethod": "КЭП в приложении",
+        "mobileApp": true,
+        "signatures": {
+            "common": {
+                "mobile": 11,
+                "web": 6
+            },
+            "special": {
+                "mobile": 10,
+                "web": 8
+            }
+        },
+        "availableMethods": [
+            "КЭП на токене",
+            "КЭП в приложении",
+            "PayControl"
+        ],
+        "claims": 4
+    },
+    {
+        "clientId": "client_101",
+        "organizationId": "organization_101",
+        "segment": "Средний бизнес",
+        "role": "ЕИО",
+        "organizations": 244,
+        "currentMethod": "КЭП в приложении",
+        "mobileApp": false,
+        "signatures": {
+            "common": {
+                "mobile": 60,
+                "web": 48
+            },
+            "special": {
+                "mobile": 30,
+                "web": 39
+            }
+        },
+        "availableMethods": [
+            "SMS",
+            "PayControl",
+            "КЭП в приложении",
+            "КЭП на токене"
+        ],
+        "claims": 4
+    },
+    {
+        "clientId": "client_102",
+        "organizationId": "organization_102",
+        "segment": "Крупный бизнес",
+        "role": "Сотрудник",
+        "organizations": 53,
+        "currentMethod": "КЭП в приложении",
+        "mobileApp": true,
+        "signatures": {
+            "common": {
+                "mobile": 20,
+                "web": 66
+            },
+            "special": {
+                "mobile": 4,
+                "web": 0
+            }
+        },
+        "availableMethods": [
+            "КЭП в приложении",
+            "PayControl"
+        ],
+        "claims": 3
+    },
+    {
+        "clientId": "client_103",
+        "organizationId": "organization_103",
+        "segment": "Малый бизнес",
+        "role": "ЕИО",
+        "organizations": 201,
+        "currentMethod": "PayControl",
+        "mobileApp": false,
+        "signatures": {
+            "common": {
+                "mobile": 20,
+                "web": 80
+            },
+            "special": {
+                "mobile": 8,
+                "web": 6
+            }
+        },
+        "availableMethods": [
+            "КЭП на токене",
+            "PayControl",
+            "SMS"
+        ],
+        "claims": 2
+    },
+    {
+        "clientId": "client_104",
+        "organizationId": "organization_104",
+        "segment": "Средний бизнес",
+        "role": "ЕИО",
+        "organizations": 249,
+        "currentMethod": "КЭП в приложении",
+        "mobileApp": false,
+        "signatures": {
+            "common": {
+                "mobile": 9,
+                "web": 30
+            },
+            "special": {
+                "mobile": 15,
+                "web": 21
+            }
+        },
+        "availableMethods": [
+            "КЭП в приложении"
+        ],
+        "claims": 5
+    },
+    {
+        "clientId": "client_105",
+        "organizationId": "organization_105",
+        "segment": "Средний бизнес",
+        "role": "ЕИО",
+        "organizations": 234,
+        "currentMethod": "SMS",
+        "mobileApp": false,
+        "signatures": {
+            "common": {
+                "mobile": 45,
+                "web": 138
+            },
+            "special": {
+                "mobile": 15,
+                "web": 39
+            }
+        },
+        "availableMethods": [
+            "PayControl",
+            "КЭП в приложении",
+            "SMS"
+        ],
+        "claims": 1
+    },
+    {
+        "clientId": "client_106",
+        "organizationId": "organization_106",
+        "segment": "Крупный бизнес",
+        "role": "Сотрудник",
+        "organizations": 87,
+        "currentMethod": "КЭП в приложении",
+        "mobileApp": true,
+        "signatures": {
+            "common": {
+                "mobile": 20,
+                "web": 80
+            },
+            "special": {
+                "mobile": 12,
+                "web": 4
+            }
+        },
+        "availableMethods": [
+            "SMS",
+            "PayControl",
+            "КЭП на токене"
+        ],
+        "claims": 5
+    },
+    {
+        "clientId": "client_107",
+        "organizationId": "organization_107",
+        "segment": "Крупный бизнес",
+        "role": "Сотрудник",
+        "organizations": 79,
+        "currentMethod": "КЭП на токене",
+        "mobileApp": false,
+        "signatures": {
+            "common": {
+                "mobile": 10,
+                "web": 82
+            },
+            "special": {
+                "mobile": 8,
+                "web": 36
+            }
+        },
+        "availableMethods": [
+            "SMS",
+            "КЭП в приложении"
+        ],
+        "claims": 2
+    },
+    {
+        "clientId": "client_108",
+        "organizationId": "organization_108",
+        "segment": "Средний бизнес",
+        "role": "ЕИО",
+        "organizations": 124,
+        "currentMethod": "КЭП в приложении",
+        "mobileApp": true,
+        "signatures": {
+            "common": {
+                "mobile": 48,
+                "web": 96
+            },
+            "special": {
+                "mobile": 3,
+                "web": 27
+            }
+        },
+        "availableMethods": [
+            "SMS",
+            "КЭП в приложении"
+        ],
+        "claims": 0
+    },
+    {
+        "clientId": "client_109",
+        "organizationId": "organization_109",
+        "segment": "Малый бизнес",
+        "role": "ЕИО",
+        "organizations": 226,
+        "currentMethod": "SMS",
+        "mobileApp": false,
+        "signatures": {
+            "common": {
+                "mobile": 40,
+                "web": 84
+            },
+            "special": {
+                "mobile": 6,
+                "web": 0
+            }
+        },
+        "availableMethods": [
+            "PayControl",
+            "КЭП на токене"
+        ],
+        "claims": 4
+    },
+    {
+        "clientId": "client_110",
+        "organizationId": "organization_110",
+        "segment": "Малый бизнес",
+        "role": "ЕИО",
+        "organizations": 276,
+        "currentMethod": "PayControl",
+        "mobileApp": false,
+        "signatures": {
+            "common": {
+                "mobile": 40,
+                "web": 6
+            },
+            "special": {
+                "mobile": 12,
+                "web": 32
+            }
+        },
+        "availableMethods": [
+            "SMS",
+            "PayControl",
+            "КЭП в приложении",
+            "КЭП на токене"
+        ],
+        "claims": 5
+    },
+    {
+        "clientId": "client_111",
+        "organizationId": "organization_111",
+        "segment": "Малый бизнес",
+        "role": "Сотрудник",
+        "organizations": 188,
+        "currentMethod": "PayControl",
+        "mobileApp": false,
+        "signatures": {
+            "common": {
+                "mobile": 20,
+                "web": 39
+            },
+            "special": {
+                "mobile": 4,
+                "web": 17
+            }
+        },
+        "availableMethods": [
+            "PayControl",
+            "КЭП на токене"
+        ],
+        "claims": 2
+    },
+    {
+        "clientId": "client_112",
+        "organizationId": "organization_112",
+        "segment": "Средний бизнес",
+        "role": "Сотрудник",
+        "organizations": 279,
+        "currentMethod": "КЭП в приложении",
+        "mobileApp": false,
+        "signatures": {
+            "common": {
+                "mobile": 9,
+                "web": 10
+            },
+            "special": {
+                "mobile": 3,
+                "web": 6
+            }
+        },
+        "availableMethods": [
+            "КЭП на токене"
+        ],
+        "claims": 4
+    },
+    {
+        "clientId": "client_113",
+        "organizationId": "organization_113",
+        "segment": "Средний бизнес",
+        "role": "Сотрудник",
+        "organizations": 166,
+        "currentMethod": "КЭП в приложении",
+        "mobileApp": true,
+        "signatures": {
+            "common": {
+                "mobile": 30,
+                "web": 48
+            },
+            "special": {
+                "mobile": 1,
+                "web": 6
+            }
+        },
+        "availableMethods": [
+            "PayControl",
+            "SMS"
+        ],
+        "claims": 2
+    },
+    {
+        "clientId": "client_114",
+        "organizationId": "organization_114",
+        "segment": "Малый бизнес",
+        "role": "ЕИО",
+        "organizations": 39,
+        "currentMethod": "КЭП в приложении",
+        "mobileApp": true,
+        "signatures": {
+            "common": {
+                "mobile": 36,
+                "web": 26
+            },
+            "special": {
+                "mobile": 12,
+                "web": 28
+            }
+        },
+        "availableMethods": [
+            "PayControl"
+        ],
+        "claims": 1
+    },
+    {
+        "clientId": "client_115",
+        "organizationId": "organization_115",
+        "segment": "Средний бизнес",
+        "role": "Сотрудник",
+        "organizations": 96,
+        "currentMethod": "PayControl",
+        "mobileApp": false,
+        "signatures": {
+            "common": {
+                "mobile": 9,
+                "web": 27
+            },
+            "special": {
+                "mobile": 9,
+                "web": 1
+            }
+        },
+        "availableMethods": [
+            "PayControl"
+        ],
+        "claims": 2
+    },
+    {
+        "clientId": "client_116",
+        "organizationId": "organization_116",
+        "segment": "Малый бизнес",
+        "role": "ЕИО",
+        "organizations": 78,
+        "currentMethod": "КЭП на токене",
+        "mobileApp": true,
+        "signatures": {
+            "common": {
+                "mobile": 0,
+                "web": 20
+            },
+            "special": {
+                "mobile": 16,
+                "web": 28
+            }
+        },
+        "availableMethods": [
+            "КЭП на токене",
+            "PayControl"
+        ],
+        "claims": 0
+    },
+    {
+        "clientId": "client_117",
+        "organizationId": "organization_117",
+        "segment": "Малый бизнес",
+        "role": "Сотрудник",
+        "organizations": 70,
+        "currentMethod": "КЭП на токене",
+        "mobileApp": false,
+        "signatures": {
+            "common": {
+                "mobile": 3,
+                "web": 6
+            },
+            "special": {
+                "mobile": 9,
+                "web": 16
+            }
+        },
+        "availableMethods": [
+            "КЭП на токене"
+        ],
+        "claims": 4
+    },
+    {
+        "clientId": "client_118",
+        "organizationId": "organization_118",
+        "segment": "Крупный бизнес",
+        "role": "ЕИО",
+        "organizations": 30,
+        "currentMethod": "PayControl",
+        "mobileApp": false,
+        "signatures": {
+            "common": {
+                "mobile": 32,
+                "web": 188
+            },
+            "special": {
+                "mobile": 36,
+                "web": 32
+            }
+        },
+        "availableMethods": [
+            "PayControl",
+            "КЭП в приложении",
+            "SMS",
+            "КЭП на токене"
+        ],
+        "claims": 5
+    },
+    {
+        "clientId": "client_119",
+        "organizationId": "organization_119",
+        "segment": "Средний бизнес",
+        "role": "Сотрудник",
+        "organizations": 200,
+        "currentMethod": "SMS",
+        "mobileApp": false,
+        "signatures": {
+            "common": {
+                "mobile": 3,
+                "web": 61
+            },
+            "special": {
+                "mobile": 7,
+                "web": 22
+            }
+        },
+        "availableMethods": [
+            "КЭП на токене"
+        ],
+        "claims": 4
+    },
+    {
+        "clientId": "client_120",
+        "organizationId": "organization_120",
+        "segment": "Крупный бизнес",
+        "role": "ЕИО",
+        "organizations": 246,
+        "currentMethod": "КЭП в приложении",
+        "mobileApp": true,
+        "signatures": {
+            "common": {
+                "mobile": 0,
+                "web": 60
+            },
+            "special": {
+                "mobile": 28,
+                "web": 28
+            }
+        },
+        "availableMethods": [
+            "КЭП в приложении",
+            "PayControl",
+            "SMS"
+        ],
+        "claims": 0
+    },
+    {
+        "clientId": "client_121",
+        "organizationId": "organization_121",
+        "segment": "Малый бизнес",
+        "role": "Сотрудник",
+        "organizations": 125,
+        "currentMethod": "КЭП в приложении",
+        "mobileApp": true,
+        "signatures": {
+            "common": {
+                "mobile": 5,
+                "web": 30
+            },
+            "special": {
+                "mobile": 8,
+                "web": 3
+            }
+        },
+        "availableMethods": [
+            "КЭП на токене",
+            "SMS",
+            "PayControl"
+        ],
+        "claims": 1
+    },
+    {
+        "clientId": "client_122",
+        "organizationId": "organization_122",
+        "segment": "Малый бизнес",
+        "role": "ЕИО",
+        "organizations": 215,
+        "currentMethod": "PayControl",
+        "mobileApp": true,
+        "signatures": {
+            "common": {
+                "mobile": 0,
+                "web": 52
+            },
+            "special": {
+                "mobile": 12,
+                "web": 34
+            }
+        },
+        "availableMethods": [
+            "SMS",
+            "PayControl",
+            "КЭП в приложении"
+        ],
+        "claims": 3
+    },
+    {
+        "clientId": "client_123",
+        "organizationId": "organization_123",
+        "segment": "Крупный бизнес",
+        "role": "Сотрудник",
+        "organizations": 276,
+        "currentMethod": "PayControl",
+        "mobileApp": false,
+        "signatures": {
+            "common": {
+                "mobile": 30,
+                "web": 32
+            },
+            "special": {
+                "mobile": 6,
+                "web": 38
+            }
+        },
+        "availableMethods": [
+            "PayControl"
+        ],
+        "claims": 5
+    },
+    {
+        "clientId": "client_124",
+        "organizationId": "organization_124",
+        "segment": "Крупный бизнес",
+        "role": "Сотрудник",
+        "organizations": 276,
+        "currentMethod": "PayControl",
+        "mobileApp": true,
+        "signatures": {
+            "common": {
+                "mobile": 2,
+                "web": 96
+            },
+            "special": {
+                "mobile": 10,
+                "web": 14
+            }
+        },
+        "availableMethods": [
+            "PayControl",
+            "КЭП в приложении",
+            "КЭП на токене"
+        ],
+        "claims": 3
+    },
+    {
+        "clientId": "client_125",
+        "organizationId": "organization_125",
+        "segment": "Крупный бизнес",
+        "role": "Сотрудник",
+        "organizations": 282,
+        "currentMethod": "PayControl",
+        "mobileApp": true,
+        "signatures": {
+            "common": {
+                "mobile": 32,
+                "web": 98
+            },
+            "special": {
+                "mobile": 20,
+                "web": 40
+            }
+        },
+        "availableMethods": [
+            "SMS",
+            "PayControl"
+        ],
+        "claims": 5
+    },
+    {
+        "clientId": "client_126",
+        "organizationId": "organization_126",
+        "segment": "Малый бизнес",
+        "role": "Сотрудник",
+        "organizations": 147,
+        "currentMethod": "SMS",
+        "mobileApp": false,
+        "signatures": {
+            "common": {
+                "mobile": 9,
+                "web": 14
+            },
+            "special": {
+                "mobile": 4,
+                "web": 6
+            }
+        },
+        "availableMethods": [
+            "PayControl",
+            "SMS",
+            "КЭП в приложении"
+        ],
+        "claims": 0
+    },
+    {
+        "clientId": "client_127",
+        "organizationId": "organization_127",
+        "segment": "Малый бизнес",
+        "role": "Сотрудник",
+        "organizations": 206,
+        "currentMethod": "SMS",
+        "mobileApp": true,
+        "signatures": {
+            "common": {
+                "mobile": 19,
+                "web": 25
+            },
+            "special": {
+                "mobile": 2,
+                "web": 0
+            }
+        },
+        "availableMethods": [
+            "КЭП на токене",
+            "PayControl",
+            "КЭП в приложении",
+            "SMS"
+        ],
+        "claims": 5
+    },
+    {
+        "clientId": "client_128",
+        "organizationId": "organization_128",
+        "segment": "Малый бизнес",
+        "role": "ЕИО",
+        "organizations": 158,
+        "currentMethod": "PayControl",
+        "mobileApp": false,
+        "signatures": {
+            "common": {
+                "mobile": 20,
+                "web": 24
+            },
+            "special": {
+                "mobile": 4,
+                "web": 12
+            }
+        },
+        "availableMethods": [
+            "SMS",
+            "PayControl",
+            "КЭП на токене"
+        ],
+        "claims": 2
+    },
+    {
+        "clientId": "client_129",
+        "organizationId": "organization_129",
+        "segment": "Крупный бизнес",
+        "role": "ЕИО",
+        "organizations": 172,
+        "currentMethod": "КЭП на токене",
+        "mobileApp": true,
+        "signatures": {
+            "common": {
+                "mobile": 72,
+                "web": 124
+            },
+            "special": {
+                "mobile": 28,
+                "web": 72
+            }
+        },
+        "availableMethods": [
+            "КЭП в приложении",
+            "SMS",
+            "PayControl",
+            "КЭП на токене"
+        ],
+        "claims": 3
+    },
+    {
+        "clientId": "client_130",
+        "organizationId": "organization_130",
+        "segment": "Малый бизнес",
+        "role": "ЕИО",
+        "organizations": 171,
+        "currentMethod": "SMS",
+        "mobileApp": false,
+        "signatures": {
+            "common": {
+                "mobile": 28,
+                "web": 84
+            },
+            "special": {
+                "mobile": 0,
+                "web": 20
+            }
+        },
+        "availableMethods": [
+            "SMS",
+            "КЭП в приложении",
+            "PayControl",
+            "КЭП на токене"
+        ],
+        "claims": 5
+    },
+    {
+        "clientId": "client_131",
+        "organizationId": "organization_131",
+        "segment": "Средний бизнес",
+        "role": "ЕИО",
+        "organizations": 63,
+        "currentMethod": "SMS",
+        "mobileApp": true,
+        "signatures": {
+            "common": {
+                "mobile": 39,
+                "web": 90
+            },
+            "special": {
+                "mobile": 24,
+                "web": 57
+            }
+        },
+        "availableMethods": [
+            "PayControl",
+            "SMS"
+        ],
+        "claims": 3
+    },
+    {
+        "clientId": "client_132",
+        "organizationId": "organization_132",
+        "segment": "Средний бизнес",
+        "role": "ЕИО",
+        "organizations": 122,
+        "currentMethod": "КЭП на токене",
+        "mobileApp": false,
+        "signatures": {
+            "common": {
+                "mobile": 60,
+                "web": 90
+            },
+            "special": {
+                "mobile": 18,
+                "web": 60
+            }
+        },
+        "availableMethods": [
+            "PayControl",
+            "КЭП на токене"
+        ],
+        "claims": 5
+    },
+    {
+        "clientId": "client_133",
+        "organizationId": "organization_133",
+        "segment": "Средний бизнес",
+        "role": "Сотрудник",
+        "organizations": 49,
+        "currentMethod": "SMS",
+        "mobileApp": true,
+        "signatures": {
+            "common": {
+                "mobile": 30,
+                "web": 66
+            },
+            "special": {
+                "mobile": 4,
+                "web": 12
+            }
+        },
+        "availableMethods": [
+            "SMS",
+            "КЭП на токене",
+            "КЭП в приложении"
+        ],
+        "claims": 0
+    },
+    {
+        "clientId": "client_134",
+        "organizationId": "organization_134",
+        "segment": "Крупный бизнес",
+        "role": "ЕИО",
+        "organizations": 124,
+        "currentMethod": "PayControl",
+        "mobileApp": false,
+        "signatures": {
+            "common": {
+                "mobile": 68,
+                "web": 84
+            },
+            "special": {
+                "mobile": 4,
+                "web": 8
+            }
+        },
+        "availableMethods": [
+            "PayControl",
+            "КЭП на токене",
+            "SMS",
+            "КЭП в приложении"
+        ],
+        "claims": 3
+    },
+    {
+        "clientId": "client_135",
+        "organizationId": "organization_135",
+        "segment": "Крупный бизнес",
+        "role": "Сотрудник",
+        "organizations": 275,
+        "currentMethod": "КЭП в приложении",
+        "mobileApp": false,
+        "signatures": {
+            "common": {
+                "mobile": 8,
+                "web": 30
+            },
+            "special": {
+                "mobile": 8,
+                "web": 32
+            }
+        },
+        "availableMethods": [
+            "SMS"
+        ],
+        "claims": 4
+    },
+    {
+        "clientId": "client_136",
+        "organizationId": "organization_136",
+        "segment": "Крупный бизнес",
+        "role": "Сотрудник",
+        "organizations": 192,
+        "currentMethod": "КЭП в приложении",
+        "mobileApp": false,
+        "signatures": {
+            "common": {
+                "mobile": 36,
+                "web": 46
+            },
+            "special": {
+                "mobile": 2,
+                "web": 12
+            }
+        },
+        "availableMethods": [
+            "PayControl",
+            "SMS"
+        ],
+        "claims": 2
+    },
+    {
+        "clientId": "client_137",
+        "organizationId": "organization_137",
+        "segment": "Крупный бизнес",
+        "role": "ЕИО",
+        "organizations": 146,
+        "currentMethod": "КЭП на токене",
+        "mobileApp": false,
+        "signatures": {
+            "common": {
+                "mobile": 4,
+                "web": 140
+            },
+            "special": {
+                "mobile": 20,
+                "web": 16
+            }
+        },
+        "availableMethods": [
+            "КЭП в приложении"
+        ],
+        "claims": 5
+    },
+    {
+        "clientId": "client_138",
+        "organizationId": "organization_138",
+        "segment": "Крупный бизнес",
+        "role": "Сотрудник",
+        "organizations": 210,
+        "currentMethod": "SMS",
+        "mobileApp": true,
+        "signatures": {
+            "common": {
+                "mobile": 10,
+                "web": 64
+            },
+            "special": {
+                "mobile": 6,
+                "web": 8
+            }
+        },
+        "availableMethods": [
+            "КЭП на токене"
+        ],
+        "claims": 5
+    },
+    {
+        "clientId": "client_139",
+        "organizationId": "organization_139",
+        "segment": "Малый бизнес",
+        "role": "ЕИО",
+        "organizations": 239,
+        "currentMethod": "SMS",
+        "mobileApp": true,
+        "signatures": {
+            "common": {
+                "mobile": 8,
+                "web": 82
+            },
+            "special": {
+                "mobile": 4,
+                "web": 12
+            }
+        },
+        "availableMethods": [
+            "КЭП на токене"
+        ],
+        "claims": 3
+    },
+    {
+        "clientId": "client_140",
+        "organizationId": "organization_140",
+        "segment": "Малый бизнес",
+        "role": "Сотрудник",
+        "organizations": 87,
+        "currentMethod": "PayControl",
+        "mobileApp": true,
+        "signatures": {
+            "common": {
+                "mobile": 6,
+                "web": 18
+            },
+            "special": {
+                "mobile": 6,
+                "web": 20
+            }
+        },
+        "availableMethods": [
+            "SMS",
+            "КЭП на токене"
+        ],
+        "claims": 3
+    },
+    {
+        "clientId": "client_141",
+        "organizationId": "organization_141",
+        "segment": "Малый бизнес",
+        "role": "Сотрудник",
+        "organizations": 43,
+        "currentMethod": "SMS",
+        "mobileApp": true,
+        "signatures": {
+            "common": {
+                "mobile": 14,
+                "web": 31
+            },
+            "special": {
+                "mobile": 3,
+                "web": 12
+            }
+        },
+        "availableMethods": [
+            "PayControl"
+        ],
+        "claims": 2
+    },
+    {
+        "clientId": "client_142",
+        "organizationId": "organization_142",
+        "segment": "Средний бизнес",
+        "role": "Сотрудник",
+        "organizations": 241,
+        "currentMethod": "SMS",
+        "mobileApp": true,
+        "signatures": {
+            "common": {
+                "mobile": 21,
+                "web": 12
+            },
+            "special": {
+                "mobile": 3,
+                "web": 4
+            }
+        },
+        "availableMethods": [
+            "SMS"
+        ],
+        "claims": 0
+    },
+    {
+        "clientId": "client_143",
+        "organizationId": "organization_143",
+        "segment": "Малый бизнес",
+        "role": "Сотрудник",
+        "organizations": 80,
+        "currentMethod": "SMS",
+        "mobileApp": false,
+        "signatures": {
+            "common": {
+                "mobile": 18,
+                "web": 24
+            },
+            "special": {
+                "mobile": 1,
+                "web": 19
+            }
+        },
+        "availableMethods": [
+            "SMS"
+        ],
+        "claims": 4
+    },
+    {
+        "clientId": "client_144",
+        "organizationId": "organization_144",
+        "segment": "Крупный бизнес",
+        "role": "Сотрудник",
+        "organizations": 68,
+        "currentMethod": "PayControl",
+        "mobileApp": false,
+        "signatures": {
+            "common": {
+                "mobile": 40,
+                "web": 14
+            },
+            "special": {
+                "mobile": 10,
+                "web": 34
+            }
+        },
+        "availableMethods": [
+            "КЭП на токене",
+            "SMS",
+            "PayControl"
+        ],
+        "claims": 2
+    },
+    {
+        "clientId": "client_145",
+        "organizationId": "organization_145",
+        "segment": "Крупный бизнес",
+        "role": "ЕИО",
+        "organizations": 273,
+        "currentMethod": "КЭП в приложении",
+        "mobileApp": true,
+        "signatures": {
+            "common": {
+                "mobile": 12,
+                "web": 32
+            },
+            "special": {
+                "mobile": 28,
+                "web": 36
+            }
+        },
+        "availableMethods": [
+            "PayControl",
+            "SMS",
+            "КЭП на токене"
+        ],
+        "claims": 2
+    },
+    {
+        "clientId": "client_146",
+        "organizationId": "organization_146",
+        "segment": "Крупный бизнес",
+        "role": "ЕИО",
+        "organizations": 159,
+        "currentMethod": "SMS",
+        "mobileApp": true,
+        "signatures": {
+            "common": {
+                "mobile": 56,
+                "web": 144
+            },
+            "special": {
+                "mobile": 4,
+                "web": 68
+            }
+        },
+        "availableMethods": [
+            "SMS",
+            "КЭП на токене"
+        ],
+        "claims": 0
+    },
+    {
+        "clientId": "client_147",
+        "organizationId": "organization_147",
+        "segment": "Средний бизнес",
+        "role": "Сотрудник",
+        "organizations": 205,
+        "currentMethod": "PayControl",
+        "mobileApp": false,
+        "signatures": {
+            "common": {
+                "mobile": 12,
+                "web": 55
+            },
+            "special": {
+                "mobile": 10,
+                "web": 19
+            }
+        },
+        "availableMethods": [
+            "SMS",
+            "КЭП в приложении",
+            "PayControl"
+        ],
+        "claims": 2
+    },
+    {
+        "clientId": "client_148",
+        "organizationId": "organization_148",
+        "segment": "Малый бизнес",
+        "role": "ЕИО",
+        "organizations": 82,
+        "currentMethod": "SMS",
+        "mobileApp": false,
+        "signatures": {
+            "common": {
+                "mobile": 8,
+                "web": 52
+            },
+            "special": {
+                "mobile": 12,
+                "web": 12
+            }
+        },
+        "availableMethods": [
+            "SMS"
+        ],
+        "claims": 0
+    },
+    {
+        "clientId": "client_149",
+        "organizationId": "organization_149",
+        "segment": "Крупный бизнес",
+        "role": "ЕИО",
+        "organizations": 225,
+        "currentMethod": "SMS",
+        "mobileApp": true,
+        "signatures": {
+            "common": {
+                "mobile": 64,
+                "web": 72
+            },
+            "special": {
+                "mobile": 28,
+                "web": 20
+            }
+        },
+        "availableMethods": [
+            "SMS"
+        ],
+        "claims": 3
+    },
+    {
+        "clientId": "client_150",
+        "organizationId": "organization_150",
+        "segment": "Крупный бизнес",
+        "role": "ЕИО",
+        "organizations": 300,
+        "currentMethod": "КЭП на токене",
+        "mobileApp": true,
+        "signatures": {
+            "common": {
+                "mobile": 36,
+                "web": 24
+            },
+            "special": {
+                "mobile": 12,
+                "web": 24
+            }
+        },
+        "availableMethods": [
+            "КЭП на токене",
+            "PayControl"
+        ],
+        "claims": 0
+    },
+    {
+        "clientId": "client_151",
+        "organizationId": "organization_151",
+        "segment": "Средний бизнес",
+        "role": "ЕИО",
+        "organizations": 78,
+        "currentMethod": "PayControl",
+        "mobileApp": true,
+        "signatures": {
+            "common": {
+                "mobile": 60,
+                "web": 30
+            },
+            "special": {
+                "mobile": 30,
+                "web": 45
+            }
+        },
+        "availableMethods": [
+            "КЭП в приложении",
+            "PayControl"
+        ],
+        "claims": 0
+    },
+    {
+        "clientId": "client_152",
+        "organizationId": "organization_152",
+        "segment": "Малый бизнес",
+        "role": "ЕИО",
+        "organizations": 28,
+        "currentMethod": "КЭП на токене",
+        "mobileApp": true,
+        "signatures": {
+            "common": {
+                "mobile": 24,
+                "web": 52
+            },
+            "special": {
+                "mobile": 14,
+                "web": 36
+            }
+        },
+        "availableMethods": [
+            "PayControl"
+        ],
+        "claims": 5
+    },
+    {
+        "clientId": "client_153",
+        "organizationId": "organization_153",
+        "segment": "Крупный бизнес",
+        "role": "ЕИО",
+        "organizations": 177,
+        "currentMethod": "КЭП в приложении",
+        "mobileApp": true,
+        "signatures": {
+            "common": {
+                "mobile": 40,
+                "web": 196
+            },
+            "special": {
+                "mobile": 40,
+                "web": 64
+            }
+        },
+        "availableMethods": [
+            "SMS",
+            "КЭП в приложении"
+        ],
+        "claims": 0
+    },
+    {
+        "clientId": "client_154",
+        "organizationId": "organization_154",
+        "segment": "Средний бизнес",
+        "role": "ЕИО",
+        "organizations": 259,
+        "currentMethod": "КЭП в приложении",
+        "mobileApp": true,
+        "signatures": {
+            "common": {
+                "mobile": 54,
+                "web": 69
+            },
+            "special": {
+                "mobile": 15,
+                "web": 12
+            }
+        },
+        "availableMethods": [
+            "SMS",
+            "КЭП в приложении"
+        ],
+        "claims": 0
+    },
+    {
+        "clientId": "client_155",
+        "organizationId": "organization_155",
+        "segment": "Крупный бизнес",
+        "role": "Сотрудник",
+        "organizations": 257,
+        "currentMethod": "SMS",
+        "mobileApp": false,
+        "signatures": {
+            "common": {
+                "mobile": 32,
+                "web": 38
+            },
+            "special": {
+                "mobile": 20,
+                "web": 36
+            }
+        },
+        "availableMethods": [
+            "SMS",
+            "КЭП в приложении"
+        ],
+        "claims": 2
+    },
+    {
+        "clientId": "client_156",
+        "organizationId": "organization_156",
+        "segment": "Малый бизнес",
+        "role": "Сотрудник",
+        "organizations": 199,
+        "currentMethod": "КЭП в приложении",
+        "mobileApp": false,
+        "signatures": {
+            "common": {
+                "mobile": 15,
+                "web": 1
+            },
+            "special": {
+                "mobile": 1,
+                "web": 17
+            }
+        },
+        "availableMethods": [
+            "КЭП на токене",
+            "КЭП в приложении",
+            "PayControl"
+        ],
+        "claims": 2
+    },
+    {
+        "clientId": "client_157",
+        "organizationId": "organization_157",
+        "segment": "Средний бизнес",
+        "role": "ЕИО",
+        "organizations": 206,
+        "currentMethod": "SMS",
+        "mobileApp": true,
+        "signatures": {
+            "common": {
+                "mobile": 30,
+                "web": 9
+            },
+            "special": {
+                "mobile": 6,
+                "web": 30
+            }
+        },
+        "availableMethods": [
+            "КЭП на токене",
+            "КЭП в приложении",
+            "PayControl",
+            "SMS"
+        ],
+        "claims": 0
+    },
+    {
+        "clientId": "client_158",
+        "organizationId": "organization_158",
+        "segment": "Малый бизнес",
+        "role": "Сотрудник",
+        "organizations": 91,
+        "currentMethod": "КЭП в приложении",
+        "mobileApp": true,
+        "signatures": {
+            "common": {
+                "mobile": 17,
+                "web": 26
+            },
+            "special": {
+                "mobile": 3,
+                "web": 10
+            }
+        },
+        "availableMethods": [
+            "SMS",
+            "КЭП на токене",
+            "КЭП в приложении"
+        ],
+        "claims": 2
+    },
+    {
+        "clientId": "client_159",
+        "organizationId": "organization_159",
+        "segment": "Малый бизнес",
+        "role": "Сотрудник",
+        "organizations": 120,
+        "currentMethod": "КЭП в приложении",
+        "mobileApp": true,
+        "signatures": {
+            "common": {
+                "mobile": 2,
+                "web": 25
+            },
+            "special": {
+                "mobile": 0,
+                "web": 16
+            }
+        },
+        "availableMethods": [
+            "КЭП в приложении",
+            "PayControl",
+            "SMS",
+            "КЭП на токене"
+        ],
+        "claims": 2
+    },
+    {
+        "clientId": "client_160",
+        "organizationId": "organization_160",
+        "segment": "Малый бизнес",
+        "role": "Сотрудник",
+        "organizations": 103,
+        "currentMethod": "SMS",
+        "mobileApp": true,
+        "signatures": {
+            "common": {
+                "mobile": 8,
+                "web": 43
+            },
+            "special": {
+                "mobile": 3,
+                "web": 16
+            }
+        },
+        "availableMethods": [
+            "КЭП на токене",
+            "SMS",
+            "КЭП в приложении"
+        ],
+        "claims": 4
+    },
+    {
+        "clientId": "client_161",
+        "organizationId": "organization_161",
+        "segment": "Малый бизнес",
+        "role": "ЕИО",
+        "organizations": 97,
+        "currentMethod": "SMS",
+        "mobileApp": false,
+        "signatures": {
+            "common": {
+                "mobile": 22,
+                "web": 54
+            },
+            "special": {
+                "mobile": 16,
+                "web": 32
+            }
+        },
+        "availableMethods": [
+            "SMS",
+            "КЭП на токене"
+        ],
+        "claims": 2
+    },
+    {
+        "clientId": "client_162",
+        "organizationId": "organization_162",
+        "segment": "Средний бизнес",
+        "role": "ЕИО",
+        "organizations": 110,
+        "currentMethod": "SMS",
+        "mobileApp": false,
+        "signatures": {
+            "common": {
+                "mobile": 27,
+                "web": 18
+            },
+            "special": {
+                "mobile": 6,
+                "web": 3
+            }
+        },
+        "availableMethods": [
+            "КЭП в приложении",
+            "КЭП на токене",
+            "PayControl",
+            "SMS"
+        ],
+        "claims": 4
+    },
+    {
+        "clientId": "client_163",
+        "organizationId": "organization_163",
+        "segment": "Малый бизнес",
+        "role": "ЕИО",
+        "organizations": 180,
+        "currentMethod": "КЭП на токене",
+        "mobileApp": false,
+        "signatures": {
+            "common": {
+                "mobile": 36,
+                "web": 26
+            },
+            "special": {
+                "mobile": 12,
+                "web": 6
+            }
+        },
+        "availableMethods": [
+            "PayControl",
+            "SMS"
+        ],
+        "claims": 4
+    },
+    {
+        "clientId": "client_164",
+        "organizationId": "organization_164",
+        "segment": "Малый бизнес",
+        "role": "Сотрудник",
+        "organizations": 30,
+        "currentMethod": "КЭП на токене",
+        "mobileApp": false,
+        "signatures": {
+            "common": {
+                "mobile": 10,
+                "web": 22
+            },
+            "special": {
+                "mobile": 4,
+                "web": 7
+            }
+        },
+        "availableMethods": [
+            "КЭП на токене",
+            "PayControl",
+            "SMS"
+        ],
+        "claims": 3
+    },
+    {
+        "clientId": "client_165",
+        "organizationId": "organization_165",
+        "segment": "Малый бизнес",
+        "role": "Сотрудник",
+        "organizations": 43,
+        "currentMethod": "КЭП в приложении",
+        "mobileApp": true,
+        "signatures": {
+            "common": {
+                "mobile": 3,
+                "web": 46
+            },
+            "special": {
+                "mobile": 10,
+                "web": 15
+            }
+        },
+        "availableMethods": [
+            "PayControl"
+        ],
+        "claims": 2
+    },
+    {
+        "clientId": "client_166",
+        "organizationId": "organization_166",
+        "segment": "Малый бизнес",
+        "role": "ЕИО",
+        "organizations": 139,
+        "currentMethod": "PayControl",
+        "mobileApp": true,
+        "signatures": {
+            "common": {
+                "mobile": 20,
+                "web": 54
+            },
+            "special": {
+                "mobile": 14,
+                "web": 10
+            }
+        },
+        "availableMethods": [
+            "SMS",
+            "КЭП в приложении"
+        ],
+        "claims": 4
+    },
+    {
+        "clientId": "client_167",
+        "organizationId": "organization_167",
+        "segment": "Малый бизнес",
+        "role": "Сотрудник",
+        "organizations": 287,
+        "currentMethod": "SMS",
+        "mobileApp": false,
+        "signatures": {
+            "common": {
+                "mobile": 18,
+                "web": 23
+            },
+            "special": {
+                "mobile": 1,
+                "web": 8
+            }
+        },
+        "availableMethods": [
+            "КЭП на токене",
+            "PayControl",
+            "КЭП в приложении"
+        ],
+        "claims": 1
+    },
+    {
+        "clientId": "client_168",
+        "organizationId": "organization_168",
+        "segment": "Средний бизнес",
+        "role": "ЕИО",
+        "organizations": 269,
+        "currentMethod": "КЭП в приложении",
+        "mobileApp": false,
+        "signatures": {
+            "common": {
+                "mobile": 48,
+                "web": 9
+            },
+            "special": {
+                "mobile": 27,
+                "web": 48
+            }
+        },
+        "availableMethods": [
+            "SMS",
+            "PayControl"
+        ],
+        "claims": 5
+    },
+    {
+        "clientId": "client_169",
+        "organizationId": "organization_169",
+        "segment": "Крупный бизнес",
+        "role": "ЕИО",
+        "organizations": 278,
+        "currentMethod": "КЭП в приложении",
+        "mobileApp": false,
+        "signatures": {
+            "common": {
+                "mobile": 12,
+                "web": 72
+            },
+            "special": {
+                "mobile": 12,
+                "web": 64
+            }
+        },
+        "availableMethods": [
+            "SMS"
+        ],
+        "claims": 3
+    },
+    {
+        "clientId": "client_170",
+        "organizationId": "organization_170",
+        "segment": "Малый бизнес",
+        "role": "Сотрудник",
+        "organizations": 243,
+        "currentMethod": "КЭП в приложении",
+        "mobileApp": false,
+        "signatures": {
+            "common": {
+                "mobile": 10,
+                "web": 3
+            },
+            "special": {
+                "mobile": 6,
+                "web": 6
+            }
+        },
+        "availableMethods": [
+            "КЭП на токене",
+            "КЭП в приложении",
+            "PayControl",
+            "SMS"
+        ],
+        "claims": 0
+    },
+    {
+        "clientId": "client_171",
+        "organizationId": "organization_171",
+        "segment": "Крупный бизнес",
+        "role": "ЕИО",
+        "organizations": 107,
+        "currentMethod": "КЭП на токене",
+        "mobileApp": false,
+        "signatures": {
+            "common": {
+                "mobile": 36,
+                "web": 88
+            },
+            "special": {
+                "mobile": 24,
+                "web": 12
+            }
+        },
+        "availableMethods": [
+            "PayControl",
+            "КЭП на токене",
+            "SMS",
+            "КЭП в приложении"
+        ],
+        "claims": 4
+    },
+    {
+        "clientId": "client_172",
+        "organizationId": "organization_172",
+        "segment": "Средний бизнес",
+        "role": "ЕИО",
+        "organizations": 183,
+        "currentMethod": "PayControl",
+        "mobileApp": true,
+        "signatures": {
+            "common": {
+                "mobile": 24,
+                "web": 48
+            },
+            "special": {
+                "mobile": 9,
+                "web": 24
+            }
+        },
+        "availableMethods": [
+            "SMS",
+            "КЭП на токене"
+        ],
+        "claims": 3
+    },
+    {
+        "clientId": "client_173",
+        "organizationId": "organization_173",
+        "segment": "Крупный бизнес",
+        "role": "ЕИО",
+        "organizations": 114,
+        "currentMethod": "SMS",
+        "mobileApp": false,
+        "signatures": {
+            "common": {
+                "mobile": 0,
+                "web": 100
+            },
+            "special": {
+                "mobile": 28,
+                "web": 68
+            }
+        },
+        "availableMethods": [
+            "SMS",
+            "PayControl"
+        ],
+        "claims": 3
+    },
+    {
+        "clientId": "client_174",
+        "organizationId": "organization_174",
+        "segment": "Средний бизнес",
+        "role": "ЕИО",
+        "organizations": 206,
+        "currentMethod": "PayControl",
+        "mobileApp": true,
+        "signatures": {
+            "common": {
+                "mobile": 33,
+                "web": 90
+            },
+            "special": {
+                "mobile": 27,
+                "web": 21
+            }
+        },
+        "availableMethods": [
+            "SMS",
+            "PayControl",
+            "КЭП на токене"
+        ],
+        "claims": 5
+    },
+    {
+        "clientId": "client_175",
+        "organizationId": "organization_175",
+        "segment": "Крупный бизнес",
+        "role": "Сотрудник",
+        "organizations": 181,
+        "currentMethod": "PayControl",
+        "mobileApp": false,
+        "signatures": {
+            "common": {
+                "mobile": 10,
+                "web": 56
+            },
+            "special": {
+                "mobile": 10,
+                "web": 24
+            }
+        },
+        "availableMethods": [
+            "КЭП в приложении"
+        ],
+        "claims": 0
+    },
+    {
+        "clientId": "client_176",
+        "organizationId": "organization_176",
+        "segment": "Крупный бизнес",
+        "role": "Сотрудник",
+        "organizations": 20,
+        "currentMethod": "SMS",
+        "mobileApp": false,
+        "signatures": {
+            "common": {
+                "mobile": 14,
+                "web": 98
+            },
+            "special": {
+                "mobile": 8,
+                "web": 20
+            }
+        },
+        "availableMethods": [
+            "КЭП на токене",
+            "PayControl",
+            "КЭП в приложении"
+        ],
+        "claims": 1
+    },
+    {
+        "clientId": "client_177",
+        "organizationId": "organization_177",
+        "segment": "Малый бизнес",
+        "role": "ЕИО",
+        "organizations": 293,
+        "currentMethod": "КЭП в приложении",
+        "mobileApp": true,
+        "signatures": {
+            "common": {
+                "mobile": 18,
+                "web": 32
+            },
+            "special": {
+                "mobile": 2,
+                "web": 24
+            }
+        },
+        "availableMethods": [
+            "SMS",
+            "КЭП в приложении",
+            "PayControl"
+        ],
+        "claims": 3
+    },
+    {
+        "clientId": "client_178",
+        "organizationId": "organization_178",
+        "segment": "Крупный бизнес",
+        "role": "Сотрудник",
+        "organizations": 13,
+        "currentMethod": "PayControl",
+        "mobileApp": true,
+        "signatures": {
+            "common": {
+                "mobile": 30,
+                "web": 48
+            },
+            "special": {
+                "mobile": 20,
+                "web": 2
+            }
+        },
+        "availableMethods": [
+            "КЭП в приложении"
+        ],
+        "claims": 1
+    },
+    {
+        "clientId": "client_179",
+        "organizationId": "organization_179",
+        "segment": "Малый бизнес",
+        "role": "ЕИО",
+        "organizations": 147,
+        "currentMethod": "КЭП на токене",
+        "mobileApp": false,
+        "signatures": {
+            "common": {
+                "mobile": 28,
+                "web": 66
+            },
+            "special": {
+                "mobile": 0,
+                "web": 18
+            }
+        },
+        "availableMethods": [
+            "КЭП в приложении",
+            "PayControl",
+            "КЭП на токене"
+        ],
+        "claims": 2
+    },
+    {
+        "clientId": "client_180",
+        "organizationId": "organization_180",
+        "segment": "Средний бизнес",
+        "role": "ЕИО",
+        "organizations": 147,
+        "currentMethod": "КЭП на токене",
+        "mobileApp": false,
+        "signatures": {
+            "common": {
+                "mobile": 6,
+                "web": 63
+            },
+            "special": {
+                "mobile": 30,
+                "web": 60
+            }
+        },
+        "availableMethods": [
+            "PayControl",
+            "КЭП в приложении",
+            "SMS"
+        ],
+        "claims": 4
+    },
+    {
+        "clientId": "client_181",
+        "organizationId": "organization_181",
+        "segment": "Средний бизнес",
+        "role": "Сотрудник",
+        "organizations": 63,
+        "currentMethod": "SMS",
+        "mobileApp": true,
+        "signatures": {
+            "common": {
+                "mobile": 25,
+                "web": 69
+            },
+            "special": {
+                "mobile": 15,
+                "web": 15
+            }
+        },
+        "availableMethods": [
+            "КЭП в приложении"
+        ],
+        "claims": 1
+    },
+    {
+        "clientId": "client_182",
+        "organizationId": "organization_182",
+        "segment": "Малый бизнес",
+        "role": "Сотрудник",
+        "organizations": 138,
+        "currentMethod": "SMS",
+        "mobileApp": true,
+        "signatures": {
+            "common": {
+                "mobile": 20,
+                "web": 48
+            },
+            "special": {
+                "mobile": 4,
+                "web": 20
+            }
+        },
+        "availableMethods": [
+            "КЭП на токене",
+            "PayControl"
+        ],
+        "claims": 3
+    },
+    {
+        "clientId": "client_183",
+        "organizationId": "organization_183",
+        "segment": "Средний бизнес",
+        "role": "ЕИО",
+        "organizations": 227,
+        "currentMethod": "КЭП в приложении",
+        "mobileApp": true,
+        "signatures": {
+            "common": {
+                "mobile": 27,
+                "web": 18
+            },
+            "special": {
+                "mobile": 15,
+                "web": 30
+            }
+        },
+        "availableMethods": [
+            "КЭП на токене",
+            "КЭП в приложении",
+            "PayControl"
+        ],
+        "claims": 3
+    },
+    {
+        "clientId": "client_184",
+        "organizationId": "organization_184",
+        "segment": "Средний бизнес",
+        "role": "ЕИО",
+        "organizations": 124,
+        "currentMethod": "SMS",
+        "mobileApp": false,
+        "signatures": {
+            "common": {
+                "mobile": 48,
+                "web": 93
+            },
+            "special": {
+                "mobile": 15,
+                "web": 24
+            }
+        },
+        "availableMethods": [
+            "КЭП в приложении",
+            "PayControl"
+        ],
+        "claims": 0
+    },
+    {
+        "clientId": "client_185",
+        "organizationId": "organization_185",
+        "segment": "Средний бизнес",
+        "role": "ЕИО",
+        "organizations": 14,
+        "currentMethod": "SMS",
+        "mobileApp": true,
+        "signatures": {
+            "common": {
+                "mobile": 3,
+                "web": 60
+            },
+            "special": {
+                "mobile": 12,
+                "web": 12
+            }
+        },
+        "availableMethods": [
+            "КЭП на токене",
+            "SMS",
+            "КЭП в приложении"
+        ],
+        "claims": 0
+    },
+    {
+        "clientId": "client_186",
+        "organizationId": "organization_186",
+        "segment": "Крупный бизнес",
+        "role": "Сотрудник",
+        "organizations": 145,
+        "currentMethod": "КЭП в приложении",
+        "mobileApp": false,
+        "signatures": {
+            "common": {
+                "mobile": 40,
+                "web": 50
+            },
+            "special": {
+                "mobile": 16,
+                "web": 4
+            }
+        },
+        "availableMethods": [
+            "КЭП на токене",
+            "PayControl"
+        ],
+        "claims": 1
+    },
+    {
+        "clientId": "client_187",
+        "organizationId": "organization_187",
+        "segment": "Средний бизнес",
+        "role": "Сотрудник",
+        "organizations": 243,
+        "currentMethod": "SMS",
+        "mobileApp": false,
+        "signatures": {
+            "common": {
+                "mobile": 7,
+                "web": 67
+            },
+            "special": {
+                "mobile": 10,
+                "web": 28
+            }
+        },
+        "availableMethods": [
+            "КЭП на токене",
+            "SMS"
+        ],
+        "claims": 1
+    },
+    {
+        "clientId": "client_188",
+        "organizationId": "organization_188",
+        "segment": "Малый бизнес",
+        "role": "ЕИО",
+        "organizations": 111,
+        "currentMethod": "SMS",
+        "mobileApp": true,
+        "signatures": {
+            "common": {
+                "mobile": 10,
+                "web": 60
+            },
+            "special": {
+                "mobile": 16,
+                "web": 12
+            }
+        },
+        "availableMethods": [
+            "КЭП на токене",
+            "SMS"
+        ],
+        "claims": 1
+    },
+    {
+        "clientId": "client_189",
+        "organizationId": "organization_189",
+        "segment": "Средний бизнес",
+        "role": "ЕИО",
+        "organizations": 134,
+        "currentMethod": "PayControl",
+        "mobileApp": false,
+        "signatures": {
+            "common": {
+                "mobile": 51,
+                "web": 135
+            },
+            "special": {
+                "mobile": 9,
+                "web": 33
+            }
+        },
+        "availableMethods": [
+            "КЭП в приложении"
+        ],
+        "claims": 2
+    },
+    {
+        "clientId": "client_190",
+        "organizationId": "organization_190",
+        "segment": "Средний бизнес",
+        "role": "ЕИО",
+        "organizations": 271,
+        "currentMethod": "SMS",
+        "mobileApp": false,
+        "signatures": {
+            "common": {
+                "mobile": 24,
+                "web": 60
+            },
+            "special": {
+                "mobile": 12,
+                "web": 18
+            }
+        },
+        "availableMethods": [
+            "КЭП на токене"
+        ],
+        "claims": 5
+    },
+    {
+        "clientId": "client_191",
+        "organizationId": "organization_191",
+        "segment": "Малый бизнес",
+        "role": "ЕИО",
+        "organizations": 203,
+        "currentMethod": "PayControl",
+        "mobileApp": false,
+        "signatures": {
+            "common": {
+                "mobile": 14,
+                "web": 70
+            },
+            "special": {
+                "mobile": 12,
+                "web": 4
+            }
+        },
+        "availableMethods": [
+            "КЭП на токене",
+            "PayControl",
+            "SMS"
+        ],
+        "claims": 2
+    },
+    {
+        "clientId": "client_192",
+        "organizationId": "organization_192",
+        "segment": "Средний бизнес",
+        "role": "ЕИО",
+        "organizations": 58,
+        "currentMethod": "PayControl",
+        "mobileApp": false,
+        "signatures": {
+            "common": {
+                "mobile": 36,
+                "web": 147
+            },
+            "special": {
+                "mobile": 9,
+                "web": 0
+            }
+        },
+        "availableMethods": [
+            "PayControl",
+            "SMS"
+        ],
+        "claims": 4
+    },
+    {
+        "clientId": "client_193",
+        "organizationId": "organization_193",
+        "segment": "Средний бизнес",
+        "role": "ЕИО",
+        "organizations": 176,
+        "currentMethod": "КЭП в приложении",
+        "mobileApp": false,
+        "signatures": {
+            "common": {
+                "mobile": 36,
+                "web": 126
+            },
+            "special": {
+                "mobile": 3,
+                "web": 42
+            }
+        },
+        "availableMethods": [
+            "КЭП на токене",
+            "КЭП в приложении"
+        ],
+        "claims": 1
+    },
+    {
+        "clientId": "client_194",
+        "organizationId": "organization_194",
+        "segment": "Крупный бизнес",
+        "role": "ЕИО",
+        "organizations": 118,
+        "currentMethod": "КЭП в приложении",
+        "mobileApp": true,
+        "signatures": {
+            "common": {
+                "mobile": 28,
+                "web": 20
+            },
+            "special": {
+                "mobile": 32,
+                "web": 24
+            }
+        },
+        "availableMethods": [
+            "PayControl"
+        ],
+        "claims": 5
+    },
+    {
+        "clientId": "client_195",
+        "organizationId": "organization_195",
+        "segment": "Крупный бизнес",
+        "role": "Сотрудник",
+        "organizations": 24,
+        "currentMethod": "КЭП в приложении",
+        "mobileApp": true,
+        "signatures": {
+            "common": {
+                "mobile": 14,
+                "web": 72
+            },
+            "special": {
+                "mobile": 6,
+                "web": 26
+            }
+        },
+        "availableMethods": [
+            "КЭП на токене",
+            "SMS"
+        ],
+        "claims": 0
+    },
+    {
+        "clientId": "client_196",
+        "organizationId": "organization_196",
+        "segment": "Малый бизнес",
+        "role": "Сотрудник",
+        "organizations": 172,
+        "currentMethod": "КЭП на токене",
+        "mobileApp": false,
+        "signatures": {
+            "common": {
+                "mobile": 11,
+                "web": 46
+            },
+            "special": {
+                "mobile": 6,
+                "web": 2
+            }
+        },
+        "availableMethods": [
+            "PayControl"
+        ],
+        "claims": 4
+    },
+    {
+        "clientId": "client_197",
+        "organizationId": "organization_197",
+        "segment": "Крупный бизнес",
+        "role": "Сотрудник",
+        "organizations": 151,
+        "currentMethod": "PayControl",
+        "mobileApp": true,
+        "signatures": {
+            "common": {
+                "mobile": 40,
+                "web": 0
+            },
+            "special": {
+                "mobile": 10,
+                "web": 20
+            }
+        },
+        "availableMethods": [
+            "КЭП на токене",
+            "SMS"
+        ],
+        "claims": 3
+    },
+    {
+        "clientId": "client_198",
+        "organizationId": "organization_198",
+        "segment": "Малый бизнес",
+        "role": "Сотрудник",
+        "organizations": 246,
+        "currentMethod": "PayControl",
+        "mobileApp": false,
+        "signatures": {
+            "common": {
+                "mobile": 5,
+                "web": 25
+            },
+            "special": {
+                "mobile": 0,
+                "web": 20
+            }
+        },
+        "availableMethods": [
+            "SMS",
+            "КЭП на токене"
+        ],
+        "claims": 3
+    },
+    {
+        "clientId": "client_199",
+        "organizationId": "organization_199",
+        "segment": "Средний бизнес",
+        "role": "Сотрудник",
+        "organizations": 86,
+        "currentMethod": "КЭП в приложении",
+        "mobileApp": true,
+        "signatures": {
+            "common": {
+                "mobile": 1,
+                "web": 3
+            },
+            "special": {
+                "mobile": 15,
+                "web": 16
+            }
+        },
+        "availableMethods": [
+            "PayControl"
+        ],
+        "claims": 1
+    },
+    {
+        "clientId": "client_200",
+        "organizationId": "organization_200",
+        "segment": "Средний бизнес",
+        "role": "ЕИО",
+        "organizations": 172,
+        "currentMethod": "КЭП в приложении",
+        "mobileApp": true,
+        "signatures": {
+            "common": {
+                "mobile": 51,
+                "web": 24
+            },
+            "special": {
+                "mobile": 0,
+                "web": 33
+            }
+        },
+        "availableMethods": [
+            "PayControl",
+            "КЭП на токене",
+            "SMS"
+        ],
+        "claims": 4
+    },
+    {
+        "clientId": "client_201",
+        "organizationId": "organization_201",
+        "segment": "Средний бизнес",
+        "role": "Сотрудник",
+        "organizations": 151,
+        "currentMethod": "КЭП в приложении",
+        "mobileApp": true,
+        "signatures": {
+            "common": {
+                "mobile": 3,
+                "web": 61
+            },
+            "special": {
+                "mobile": 1,
+                "web": 27
+            }
+        },
+        "availableMethods": [
+            "SMS"
+        ],
+        "claims": 1
+    },
+    {
+        "clientId": "client_202",
+        "organizationId": "organization_202",
+        "segment": "Крупный бизнес",
+        "role": "ЕИО",
+        "organizations": 298,
+        "currentMethod": "SMS",
+        "mobileApp": false,
+        "signatures": {
+            "common": {
+                "mobile": 28,
+                "web": 156
+            },
+            "special": {
+                "mobile": 12,
+                "web": 12
+            }
+        },
+        "availableMethods": [
+            "SMS",
+            "КЭП на токене",
+            "КЭП в приложении"
+        ],
+        "claims": 2
+    },
+    {
+        "clientId": "client_203",
+        "organizationId": "organization_203",
+        "segment": "Крупный бизнес",
+        "role": "ЕИО",
+        "organizations": 124,
+        "currentMethod": "КЭП на токене",
+        "mobileApp": true,
+        "signatures": {
+            "common": {
+                "mobile": 4,
+                "web": 84
+            },
+            "special": {
+                "mobile": 28,
+                "web": 76
+            }
+        },
+        "availableMethods": [
+            "КЭП в приложении",
+            "PayControl"
+        ],
+        "claims": 5
+    },
+    {
+        "clientId": "client_204",
+        "organizationId": "organization_204",
+        "segment": "Средний бизнес",
+        "role": "Сотрудник",
+        "organizations": 161,
+        "currentMethod": "КЭП в приложении",
+        "mobileApp": false,
+        "signatures": {
+            "common": {
+                "mobile": 25,
+                "web": 33
+            },
+            "special": {
+                "mobile": 12,
+                "web": 9
+            }
+        },
+        "availableMethods": [
+            "PayControl"
+        ],
+        "claims": 0
+    },
+    {
+        "clientId": "client_205",
+        "organizationId": "organization_205",
+        "segment": "Крупный бизнес",
+        "role": "ЕИО",
+        "organizations": 180,
+        "currentMethod": "SMS",
+        "mobileApp": true,
+        "signatures": {
+            "common": {
+                "mobile": 40,
+                "web": 196
+            },
+            "special": {
+                "mobile": 28,
+                "web": 4
+            }
+        },
+        "availableMethods": [
+            "КЭП в приложении",
+            "PayControl",
+            "SMS",
+            "КЭП на токене"
+        ],
+        "claims": 5
+    },
+    {
+        "clientId": "client_206",
+        "organizationId": "organization_206",
+        "segment": "Крупный бизнес",
+        "role": "Сотрудник",
+        "organizations": 83,
+        "currentMethod": "КЭП на токене",
+        "mobileApp": true,
+        "signatures": {
+            "common": {
+                "mobile": 12,
+                "web": 82
+            },
+            "special": {
+                "mobile": 10,
+                "web": 28
+            }
+        },
+        "availableMethods": [
+            "PayControl",
+            "КЭП в приложении",
+            "SMS"
+        ],
+        "claims": 5
+    },
+    {
+        "clientId": "client_207",
+        "organizationId": "organization_207",
+        "segment": "Средний бизнес",
+        "role": "Сотрудник",
+        "organizations": 92,
+        "currentMethod": "PayControl",
+        "mobileApp": false,
+        "signatures": {
+            "common": {
+                "mobile": 21,
+                "web": 37
+            },
+            "special": {
+                "mobile": 13,
+                "web": 16
+            }
+        },
+        "availableMethods": [
+            "КЭП на токене",
+            "PayControl",
+            "SMS"
+        ],
+        "claims": 0
+    },
+    {
+        "clientId": "client_208",
+        "organizationId": "organization_208",
+        "segment": "Крупный бизнес",
+        "role": "Сотрудник",
+        "organizations": 156,
+        "currentMethod": "PayControl",
+        "mobileApp": true,
+        "signatures": {
+            "common": {
+                "mobile": 30,
+                "web": 84
+            },
+            "special": {
+                "mobile": 0,
+                "web": 30
+            }
+        },
+        "availableMethods": [
+            "SMS",
+            "PayControl"
+        ],
+        "claims": 4
+    },
+    {
+        "clientId": "client_209",
+        "organizationId": "organization_209",
+        "segment": "Малый бизнес",
+        "role": "ЕИО",
+        "organizations": 233,
+        "currentMethod": "КЭП в приложении",
+        "mobileApp": false,
+        "signatures": {
+            "common": {
+                "mobile": 20,
+                "web": 4
+            },
+            "special": {
+                "mobile": 12,
+                "web": 10
+            }
+        },
+        "availableMethods": [
+            "КЭП в приложении",
+            "SMS"
+        ],
+        "claims": 5
+    },
+    {
+        "clientId": "client_210",
+        "organizationId": "organization_210",
+        "segment": "Средний бизнес",
+        "role": "Сотрудник",
+        "organizations": 101,
+        "currentMethod": "КЭП в приложении",
+        "mobileApp": false,
+        "signatures": {
+            "common": {
+                "mobile": 12,
+                "web": 24
+            },
+            "special": {
+                "mobile": 0,
+                "web": 13
+            }
+        },
+        "availableMethods": [
+            "PayControl",
+            "КЭП на токене",
+            "КЭП в приложении",
+            "SMS"
+        ],
+        "claims": 2
+    },
+    {
+        "clientId": "client_211",
+        "organizationId": "organization_211",
+        "segment": "Малый бизнес",
+        "role": "Сотрудник",
+        "organizations": 15,
+        "currentMethod": "КЭП в приложении",
+        "mobileApp": true,
+        "signatures": {
+            "common": {
+                "mobile": 0,
+                "web": 23
+            },
+            "special": {
+                "mobile": 4,
+                "web": 18
+            }
+        },
+        "availableMethods": [
+            "PayControl",
+            "SMS",
+            "КЭП в приложении"
+        ],
+        "claims": 1
+    },
+    {
+        "clientId": "client_212",
+        "organizationId": "organization_212",
+        "segment": "Крупный бизнес",
+        "role": "Сотрудник",
+        "organizations": 18,
+        "currentMethod": "КЭП в приложении",
+        "mobileApp": false,
+        "signatures": {
+            "common": {
+                "mobile": 24,
+                "web": 20
+            },
+            "special": {
+                "mobile": 2,
+                "web": 0
+            }
+        },
+        "availableMethods": [
+            "SMS",
+            "КЭП на токене",
+            "КЭП в приложении",
+            "PayControl"
+        ],
+        "claims": 3
+    },
+    {
+        "clientId": "client_213",
+        "organizationId": "organization_213",
+        "segment": "Средний бизнес",
+        "role": "Сотрудник",
+        "organizations": 208,
+        "currentMethod": "КЭП в приложении",
+        "mobileApp": true,
+        "signatures": {
+            "common": {
+                "mobile": 4,
+                "web": 28
+            },
+            "special": {
+                "mobile": 1,
+                "web": 1
+            }
+        },
+        "availableMethods": [
+            "PayControl",
+            "КЭП в приложении"
+        ],
+        "claims": 1
+    },
+    {
+        "clientId": "client_214",
+        "organizationId": "organization_214",
+        "segment": "Средний бизнес",
+        "role": "ЕИО",
+        "organizations": 131,
+        "currentMethod": "SMS",
+        "mobileApp": true,
+        "signatures": {
+            "common": {
+                "mobile": 18,
+                "web": 36
+            },
+            "special": {
+                "mobile": 15,
+                "web": 33
+            }
+        },
+        "availableMethods": [
+            "SMS",
+            "КЭП в приложении"
+        ],
+        "claims": 1
+    },
+    {
+        "clientId": "client_215",
+        "organizationId": "organization_215",
+        "segment": "Крупный бизнес",
+        "role": "ЕИО",
+        "organizations": 74,
+        "currentMethod": "PayControl",
+        "mobileApp": false,
+        "signatures": {
+            "common": {
+                "mobile": 48,
+                "web": 4
+            },
+            "special": {
+                "mobile": 8,
+                "web": 8
+            }
+        },
+        "availableMethods": [
+            "SMS",
+            "PayControl",
+            "КЭП на токене"
+        ],
+        "claims": 3
+    },
+    {
+        "clientId": "client_216",
+        "organizationId": "organization_216",
+        "segment": "Средний бизнес",
+        "role": "ЕИО",
+        "organizations": 288,
+        "currentMethod": "SMS",
+        "mobileApp": false,
+        "signatures": {
+            "common": {
+                "mobile": 15,
+                "web": 57
+            },
+            "special": {
+                "mobile": 24,
+                "web": 18
+            }
+        },
+        "availableMethods": [
+            "PayControl",
+            "КЭП на токене",
+            "КЭП в приложении",
+            "SMS"
+        ],
+        "claims": 4
+    },
+    {
+        "clientId": "client_217",
+        "organizationId": "organization_217",
+        "segment": "Малый бизнес",
+        "role": "ЕИО",
+        "organizations": 239,
+        "currentMethod": "PayControl",
+        "mobileApp": false,
+        "signatures": {
+            "common": {
+                "mobile": 14,
+                "web": 68
+            },
+            "special": {
+                "mobile": 20,
+                "web": 28
+            }
+        },
+        "availableMethods": [
+            "PayControl",
+            "SMS"
+        ],
+        "claims": 4
+    },
+    {
+        "clientId": "client_218",
+        "organizationId": "organization_218",
+        "segment": "Средний бизнес",
+        "role": "Сотрудник",
+        "organizations": 40,
+        "currentMethod": "КЭП на токене",
+        "mobileApp": false,
+        "signatures": {
+            "common": {
+                "mobile": 24,
+                "web": 28
+            },
+            "special": {
+                "mobile": 15,
+                "web": 9
+            }
+        },
+        "availableMethods": [
+            "SMS"
+        ],
+        "claims": 2
+    },
+    {
+        "clientId": "client_219",
+        "organizationId": "organization_219",
+        "segment": "Средний бизнес",
+        "role": "Сотрудник",
+        "organizations": 155,
+        "currentMethod": "PayControl",
+        "mobileApp": false,
+        "signatures": {
+            "common": {
+                "mobile": 0,
+                "web": 28
+            },
+            "special": {
+                "mobile": 15,
+                "web": 1
+            }
+        },
+        "availableMethods": [
+            "PayControl",
+            "КЭП на токене",
+            "КЭП в приложении"
+        ],
+        "claims": 3
+    },
+    {
+        "clientId": "client_220",
+        "organizationId": "organization_220",
+        "segment": "Средний бизнес",
+        "role": "ЕИО",
+        "organizations": 166,
+        "currentMethod": "КЭП в приложении",
+        "mobileApp": false,
+        "signatures": {
+            "common": {
+                "mobile": 24,
+                "web": 66
+            },
+            "special": {
+                "mobile": 24,
+                "web": 48
+            }
+        },
+        "availableMethods": [
+            "SMS",
+            "PayControl",
+            "КЭП на токене",
+            "КЭП в приложении"
+        ],
+        "claims": 2
+    },
+    {
+        "clientId": "client_221",
+        "organizationId": "organization_221",
+        "segment": "Малый бизнес",
+        "role": "Сотрудник",
+        "organizations": 42,
+        "currentMethod": "КЭП в приложении",
+        "mobileApp": true,
+        "signatures": {
+            "common": {
+                "mobile": 13,
+                "web": 49
+            },
+            "special": {
+                "mobile": 4,
+                "web": 0
+            }
+        },
+        "availableMethods": [
+            "КЭП в приложении",
+            "PayControl",
+            "SMS",
+            "КЭП на токене"
+        ],
+        "claims": 2
+    },
+    {
+        "clientId": "client_222",
+        "organizationId": "organization_222",
+        "segment": "Малый бизнес",
+        "role": "Сотрудник",
+        "organizations": 281,
+        "currentMethod": "КЭП в приложении",
+        "mobileApp": true,
+        "signatures": {
+            "common": {
+                "mobile": 17,
+                "web": 30
+            },
+            "special": {
+                "mobile": 6,
+                "web": 0
+            }
+        },
+        "availableMethods": [
+            "SMS",
+            "КЭП в приложении",
+            "КЭП на токене"
+        ],
+        "claims": 3
+    },
+    {
+        "clientId": "client_223",
+        "organizationId": "organization_223",
+        "segment": "Крупный бизнес",
+        "role": "Сотрудник",
+        "organizations": 35,
+        "currentMethod": "КЭП в приложении",
+        "mobileApp": false,
+        "signatures": {
+            "common": {
+                "mobile": 24,
+                "web": 30
+            },
+            "special": {
+                "mobile": 18,
+                "web": 26
+            }
+        },
+        "availableMethods": [
+            "SMS",
+            "КЭП на токене",
+            "PayControl",
+            "КЭП в приложении"
+        ],
+        "claims": 4
+    },
+    {
+        "clientId": "client_224",
+        "organizationId": "organization_224",
+        "segment": "Средний бизнес",
+        "role": "Сотрудник",
+        "organizations": 84,
+        "currentMethod": "КЭП на токене",
+        "mobileApp": false,
+        "signatures": {
+            "common": {
+                "mobile": 24,
+                "web": 9
+            },
+            "special": {
+                "mobile": 6,
+                "web": 10
+            }
+        },
+        "availableMethods": [
+            "PayControl",
+            "КЭП на токене",
+            "КЭП в приложении"
+        ],
+        "claims": 1
+    },
+    {
+        "clientId": "client_225",
+        "organizationId": "organization_225",
+        "segment": "Малый бизнес",
+        "role": "Сотрудник",
+        "organizations": 55,
+        "currentMethod": "КЭП в приложении",
+        "mobileApp": true,
+        "signatures": {
+            "common": {
+                "mobile": 2,
+                "web": 22
+            },
+            "special": {
+                "mobile": 10,
+                "web": 11
+            }
+        },
+        "availableMethods": [
+            "КЭП в приложении",
+            "SMS"
+        ],
+        "claims": 3
+    },
+    {
+        "clientId": "client_226",
+        "organizationId": "organization_226",
+        "segment": "Средний бизнес",
+        "role": "Сотрудник",
+        "organizations": 63,
+        "currentMethod": "КЭП на токене",
+        "mobileApp": false,
+        "signatures": {
+            "common": {
+                "mobile": 9,
+                "web": 43
+            },
+            "special": {
+                "mobile": 7,
+                "web": 24
+            }
+        },
+        "availableMethods": [
+            "SMS",
+            "КЭП на токене"
+        ],
+        "claims": 4
+    },
+    {
+        "clientId": "client_227",
+        "organizationId": "organization_227",
+        "segment": "Малый бизнес",
+        "role": "ЕИО",
+        "organizations": 246,
+        "currentMethod": "КЭП на токене",
+        "mobileApp": false,
+        "signatures": {
+            "common": {
+                "mobile": 26,
+                "web": 60
+            },
+            "special": {
+                "mobile": 18,
+                "web": 32
+            }
+        },
+        "availableMethods": [
+            "PayControl",
+            "КЭП в приложении",
+            "КЭП на токене",
+            "SMS"
+        ],
+        "claims": 3
+    },
+    {
+        "clientId": "client_228",
+        "organizationId": "organization_228",
+        "segment": "Малый бизнес",
+        "role": "ЕИО",
+        "organizations": 129,
+        "currentMethod": "PayControl",
+        "mobileApp": true,
+        "signatures": {
+            "common": {
+                "mobile": 32,
+                "web": 92
+            },
+            "special": {
+                "mobile": 6,
+                "web": 2
+            }
+        },
+        "availableMethods": [
+            "PayControl",
+            "SMS",
+            "КЭП в приложении",
+            "КЭП на токене"
+        ],
+        "claims": 0
+    },
+    {
+        "clientId": "client_229",
+        "organizationId": "organization_229",
+        "segment": "Средний бизнес",
+        "role": "ЕИО",
+        "organizations": 215,
+        "currentMethod": "КЭП на токене",
+        "mobileApp": false,
+        "signatures": {
+            "common": {
+                "mobile": 30,
+                "web": 144
+            },
+            "special": {
+                "mobile": 21,
+                "web": 24
+            }
+        },
+        "availableMethods": [
+            "КЭП на токене",
+            "PayControl"
+        ],
+        "claims": 1
+    },
+    {
+        "clientId": "client_230",
+        "organizationId": "organization_230",
+        "segment": "Крупный бизнес",
+        "role": "ЕИО",
+        "organizations": 102,
+        "currentMethod": "SMS",
+        "mobileApp": true,
+        "signatures": {
+            "common": {
+                "mobile": 40,
+                "web": 60
+            },
+            "special": {
+                "mobile": 24,
+                "web": 28
+            }
+        },
+        "availableMethods": [
+            "PayControl",
+            "КЭП на токене",
+            "SMS"
+        ],
+        "claims": 1
+    },
+    {
+        "clientId": "client_231",
+        "organizationId": "organization_231",
+        "segment": "Малый бизнес",
+        "role": "Сотрудник",
+        "organizations": 155,
+        "currentMethod": "PayControl",
+        "mobileApp": true,
+        "signatures": {
+            "common": {
+                "mobile": 0,
+                "web": 39
+            },
+            "special": {
+                "mobile": 8,
+                "web": 8
+            }
+        },
+        "availableMethods": [
+            "SMS",
+            "КЭП в приложении",
+            "PayControl"
+        ],
+        "claims": 4
+    },
+    {
+        "clientId": "client_232",
+        "organizationId": "organization_232",
+        "segment": "Крупный бизнес",
+        "role": "Сотрудник",
+        "organizations": 202,
+        "currentMethod": "PayControl",
+        "mobileApp": true,
+        "signatures": {
+            "common": {
+                "mobile": 34,
+                "web": 58
+            },
+            "special": {
+                "mobile": 12,
+                "web": 14
+            }
+        },
+        "availableMethods": [
+            "КЭП на токене",
+            "КЭП в приложении"
+        ],
+        "claims": 2
+    },
+    {
+        "clientId": "client_233",
+        "organizationId": "organization_233",
+        "segment": "Средний бизнес",
+        "role": "ЕИО",
+        "organizations": 286,
+        "currentMethod": "КЭП на токене",
+        "mobileApp": false,
+        "signatures": {
+            "common": {
+                "mobile": 30,
+                "web": 54
+            },
+            "special": {
+                "mobile": 18,
+                "web": 6
+            }
+        },
+        "availableMethods": [
+            "КЭП в приложении",
+            "SMS",
+            "КЭП на токене",
+            "PayControl"
+        ],
+        "claims": 3
+    },
+    {
+        "clientId": "client_234",
+        "organizationId": "organization_234",
+        "segment": "Средний бизнес",
+        "role": "Сотрудник",
+        "organizations": 50,
+        "currentMethod": "SMS",
+        "mobileApp": true,
+        "signatures": {
+            "common": {
+                "mobile": 9,
+                "web": 45
+            },
+            "special": {
+                "mobile": 6,
+                "web": 3
+            }
+        },
+        "availableMethods": [
+            "SMS",
+            "КЭП на токене"
+        ],
+        "claims": 2
+    },
+    {
+        "clientId": "client_235",
+        "organizationId": "organization_235",
+        "segment": "Малый бизнес",
+        "role": "ЕИО",
+        "organizations": 192,
+        "currentMethod": "КЭП на токене",
+        "mobileApp": true,
+        "signatures": {
+            "common": {
+                "mobile": 40,
+                "web": 44
+            },
+            "special": {
+                "mobile": 10,
+                "web": 26
+            }
+        },
+        "availableMethods": [
+            "SMS",
+            "PayControl",
+            "КЭП на токене"
+        ],
+        "claims": 2
+    },
+    {
+        "clientId": "client_236",
+        "organizationId": "organization_236",
+        "segment": "Малый бизнес",
+        "role": "Сотрудник",
+        "organizations": 285,
+        "currentMethod": "PayControl",
+        "mobileApp": true,
+        "signatures": {
+            "common": {
+                "mobile": 10,
+                "web": 37
+            },
+            "special": {
+                "mobile": 9,
+                "web": 5
+            }
+        },
+        "availableMethods": [
+            "SMS",
+            "КЭП на токене",
+            "КЭП в приложении",
+            "PayControl"
+        ],
+        "claims": 4
+    },
+    {
+        "clientId": "client_237",
+        "organizationId": "organization_237",
+        "segment": "Средний бизнес",
+        "role": "Сотрудник",
+        "organizations": 189,
+        "currentMethod": "PayControl",
+        "mobileApp": false,
+        "signatures": {
+            "common": {
+                "mobile": 10,
+                "web": 70
+            },
+            "special": {
+                "mobile": 4,
+                "web": 21
+            }
+        },
+        "availableMethods": [
+            "КЭП на токене",
+            "КЭП в приложении",
+            "SMS"
+        ],
+        "claims": 2
+    },
+    {
+        "clientId": "client_238",
+        "organizationId": "organization_238",
+        "segment": "Средний бизнес",
+        "role": "ЕИО",
+        "organizations": 47,
+        "currentMethod": "КЭП на токене",
+        "mobileApp": true,
+        "signatures": {
+            "common": {
+                "mobile": 3,
+                "web": 18
+            },
+            "special": {
+                "mobile": 0,
+                "web": 48
+            }
+        },
+        "availableMethods": [
+            "SMS"
+        ],
+        "claims": 1
+    },
+    {
+        "clientId": "client_239",
+        "organizationId": "organization_239",
+        "segment": "Средний бизнес",
+        "role": "Сотрудник",
+        "organizations": 113,
+        "currentMethod": "SMS",
+        "mobileApp": false,
+        "signatures": {
+            "common": {
+                "mobile": 12,
+                "web": 15
+            },
+            "special": {
+                "mobile": 9,
+                "web": 6
+            }
+        },
+        "availableMethods": [
+            "SMS"
+        ],
+        "claims": 4
+    },
+    {
+        "clientId": "client_240",
+        "organizationId": "organization_240",
+        "segment": "Малый бизнес",
+        "role": "Сотрудник",
+        "organizations": 224,
+        "currentMethod": "PayControl",
+        "mobileApp": true,
+        "signatures": {
+            "common": {
+                "mobile": 13,
+                "web": 31
+            },
+            "special": {
+                "mobile": 7,
+                "web": 20
+            }
+        },
+        "availableMethods": [
+            "КЭП на токене",
+            "КЭП в приложении",
+            "SMS",
+            "PayControl"
+        ],
+        "claims": 3
+    },
+    {
+        "clientId": "client_241",
+        "organizationId": "organization_241",
+        "segment": "Средний бизнес",
+        "role": "Сотрудник",
+        "organizations": 84,
+        "currentMethod": "SMS",
+        "mobileApp": false,
+        "signatures": {
+            "common": {
+                "mobile": 4,
+                "web": 4
+            },
+            "special": {
+                "mobile": 12,
+                "web": 22
+            }
+        },
+        "availableMethods": [
+            "PayControl",
+            "КЭП в приложении"
+        ],
+        "claims": 0
+    },
+    {
+        "clientId": "client_242",
+        "organizationId": "organization_242",
+        "segment": "Средний бизнес",
+        "role": "ЕИО",
+        "organizations": 144,
+        "currentMethod": "PayControl",
+        "mobileApp": true,
+        "signatures": {
+            "common": {
+                "mobile": 6,
+                "web": 75
+            },
+            "special": {
+                "mobile": 3,
+                "web": 42
+            }
+        },
+        "availableMethods": [
+            "SMS",
+            "КЭП в приложении",
+            "КЭП на токене"
+        ],
+        "claims": 3
+    },
+    {
+        "clientId": "client_243",
+        "organizationId": "organization_243",
+        "segment": "Крупный бизнес",
+        "role": "Сотрудник",
+        "organizations": 230,
+        "currentMethod": "КЭП в приложении",
+        "mobileApp": true,
+        "signatures": {
+            "common": {
+                "mobile": 4,
+                "web": 28
+            },
+            "special": {
+                "mobile": 8,
+                "web": 8
+            }
+        },
+        "availableMethods": [
+            "SMS",
+            "КЭП в приложении"
+        ],
+        "claims": 5
+    },
+    {
+        "clientId": "client_244",
+        "organizationId": "organization_244",
+        "segment": "Малый бизнес",
+        "role": "ЕИО",
+        "organizations": 59,
+        "currentMethod": "SMS",
+        "mobileApp": false,
+        "signatures": {
+            "common": {
+                "mobile": 4,
+                "web": 4
+            },
+            "special": {
+                "mobile": 8,
+                "web": 22
+            }
+        },
+        "availableMethods": [
+            "КЭП на токене"
+        ],
+        "claims": 4
+    },
+    {
+        "clientId": "client_245",
+        "organizationId": "organization_245",
+        "segment": "Средний бизнес",
+        "role": "ЕИО",
+        "organizations": 241,
+        "currentMethod": "SMS",
+        "mobileApp": true,
+        "signatures": {
+            "common": {
+                "mobile": 51,
+                "web": 120
+            },
+            "special": {
+                "mobile": 0,
+                "web": 9
+            }
+        },
+        "availableMethods": [
+            "КЭП в приложении",
+            "КЭП на токене"
+        ],
+        "claims": 4
+    },
+    {
+        "clientId": "client_246",
+        "organizationId": "organization_246",
+        "segment": "Малый бизнес",
+        "role": "Сотрудник",
+        "organizations": 112,
+        "currentMethod": "PayControl",
+        "mobileApp": true,
+        "signatures": {
+            "common": {
+                "mobile": 10,
+                "web": 27
+            },
+            "special": {
+                "mobile": 1,
+                "web": 16
+            }
+        },
+        "availableMethods": [
+            "SMS",
+            "PayControl",
+            "КЭП в приложении"
+        ],
+        "claims": 3
+    },
+    {
+        "clientId": "client_247",
+        "organizationId": "organization_247",
+        "segment": "Крупный бизнес",
+        "role": "Сотрудник",
+        "organizations": 300,
+        "currentMethod": "КЭП на токене",
+        "mobileApp": false,
+        "signatures": {
+            "common": {
+                "mobile": 34,
+                "web": 54
+            },
+            "special": {
+                "mobile": 18,
+                "web": 12
+            }
+        },
+        "availableMethods": [
+            "PayControl",
+            "КЭП в приложении"
+        ],
+        "claims": 2
+    },
+    {
+        "clientId": "client_248",
+        "organizationId": "organization_248",
+        "segment": "Средний бизнес",
+        "role": "Сотрудник",
+        "organizations": 178,
+        "currentMethod": "КЭП в приложении",
+        "mobileApp": true,
+        "signatures": {
+            "common": {
+                "mobile": 9,
+                "web": 61
+            },
+            "special": {
+                "mobile": 13,
+                "web": 10
+            }
+        },
+        "availableMethods": [
+            "КЭП в приложении"
+        ],
+        "claims": 4
+    },
+    {
+        "clientId": "client_249",
+        "organizationId": "organization_249",
+        "segment": "Малый бизнес",
+        "role": "ЕИО",
+        "organizations": 12,
+        "currentMethod": "КЭП на токене",
+        "mobileApp": false,
+        "signatures": {
+            "common": {
+                "mobile": 36,
+                "web": 40
+            },
+            "special": {
+                "mobile": 8,
+                "web": 2
+            }
+        },
+        "availableMethods": [
+            "КЭП в приложении"
+        ],
+        "claims": 2
+    },
+    {
+        "clientId": "client_250",
+        "organizationId": "organization_250",
+        "segment": "Средний бизнес",
+        "role": "Сотрудник",
+        "organizations": 129,
+        "currentMethod": "КЭП на токене",
+        "mobileApp": false,
+        "signatures": {
+            "common": {
+                "mobile": 27,
+                "web": 61
+            },
+            "special": {
+                "mobile": 13,
+                "web": 16
+            }
+        },
+        "availableMethods": [
+            "КЭП на токене",
+            "КЭП в приложении"
+        ],
+        "claims": 0
+    },
+    {
+        "clientId": "client_251",
+        "organizationId": "organization_251",
+        "segment": "Крупный бизнес",
+        "role": "ЕИО",
+        "organizations": 117,
+        "currentMethod": "PayControl",
+        "mobileApp": true,
+        "signatures": {
+            "common": {
+                "mobile": 76,
+                "web": 96
+            },
+            "special": {
+                "mobile": 4,
+                "web": 56
+            }
+        },
+        "availableMethods": [
+            "PayControl",
+            "КЭП в приложении",
+            "SMS",
+            "КЭП на токене"
+        ],
+        "claims": 3
+    },
+    {
+        "clientId": "client_252",
+        "organizationId": "organization_252",
+        "segment": "Крупный бизнес",
+        "role": "Сотрудник",
+        "organizations": 206,
+        "currentMethod": "КЭП на токене",
+        "mobileApp": true,
+        "signatures": {
+            "common": {
+                "mobile": 30,
+                "web": 38
+            },
+            "special": {
+                "mobile": 6,
+                "web": 22
+            }
+        },
+        "availableMethods": [
+            "SMS",
+            "PayControl",
+            "КЭП на токене",
+            "КЭП в приложении"
+        ],
+        "claims": 2
+    },
+    {
+        "clientId": "client_253",
+        "organizationId": "organization_253",
+        "segment": "Крупный бизнес",
+        "role": "Сотрудник",
+        "organizations": 71,
+        "currentMethod": "PayControl",
+        "mobileApp": true,
+        "signatures": {
+            "common": {
+                "mobile": 34,
+                "web": 36
+            },
+            "special": {
+                "mobile": 16,
+                "web": 4
+            }
+        },
+        "availableMethods": [
+            "PayControl",
+            "КЭП на токене"
+        ],
+        "claims": 1
+    },
+    {
+        "clientId": "client_254",
+        "organizationId": "organization_254",
+        "segment": "Средний бизнес",
+        "role": "ЕИО",
+        "organizations": 171,
+        "currentMethod": "SMS",
+        "mobileApp": true,
+        "signatures": {
+            "common": {
+                "mobile": 18,
+                "web": 123
+            },
+            "special": {
+                "mobile": 21,
+                "web": 0
+            }
+        },
+        "availableMethods": [
+            "КЭП в приложении",
+            "КЭП на токене"
+        ],
+        "claims": 2
+    },
+    {
+        "clientId": "client_255",
+        "organizationId": "organization_255",
+        "segment": "Крупный бизнес",
+        "role": "Сотрудник",
+        "organizations": 288,
+        "currentMethod": "SMS",
+        "mobileApp": false,
+        "signatures": {
+            "common": {
+                "mobile": 10,
+                "web": 24
+            },
+            "special": {
+                "mobile": 10,
+                "web": 8
+            }
+        },
+        "availableMethods": [
+            "КЭП на токене",
+            "КЭП в приложении"
+        ],
+        "claims": 5
+    },
+    {
+        "clientId": "client_256",
+        "organizationId": "organization_256",
+        "segment": "Средний бизнес",
+        "role": "ЕИО",
+        "organizations": 168,
+        "currentMethod": "КЭП в приложении",
+        "mobileApp": true,
+        "signatures": {
+            "common": {
+                "mobile": 57,
+                "web": 147
+            },
+            "special": {
+                "mobile": 0,
+                "web": 57
+            }
+        },
+        "availableMethods": [
+            "КЭП на токене",
+            "SMS",
+            "КЭП в приложении",
+            "PayControl"
+        ],
+        "claims": 1
+    },
+    {
+        "clientId": "client_257",
+        "organizationId": "organization_257",
+        "segment": "Крупный бизнес",
+        "role": "Сотрудник",
+        "organizations": 72,
+        "currentMethod": "PayControl",
+        "mobileApp": true,
+        "signatures": {
+            "common": {
+                "mobile": 34,
+                "web": 28
+            },
+            "special": {
+                "mobile": 4,
+                "web": 12
+            }
+        },
+        "availableMethods": [
+            "КЭП на токене",
+            "КЭП в приложении",
+            "SMS",
+            "PayControl"
+        ],
+        "claims": 3
+    },
+    {
+        "clientId": "client_258",
+        "organizationId": "organization_258",
+        "segment": "Малый бизнес",
+        "role": "Сотрудник",
+        "organizations": 119,
+        "currentMethod": "PayControl",
+        "mobileApp": true,
+        "signatures": {
+            "common": {
+                "mobile": 15,
+                "web": 49
+            },
+            "special": {
+                "mobile": 10,
+                "web": 10
+            }
+        },
+        "availableMethods": [
+            "SMS",
+            "КЭП в приложении",
+            "PayControl",
+            "КЭП на токене"
+        ],
+        "claims": 5
+    },
+    {
+        "clientId": "client_259",
+        "organizationId": "organization_259",
+        "segment": "Крупный бизнес",
+        "role": "Сотрудник",
+        "organizations": 133,
+        "currentMethod": "PayControl",
+        "mobileApp": false,
+        "signatures": {
+            "common": {
+                "mobile": 2,
+                "web": 84
+            },
+            "special": {
+                "mobile": 0,
+                "web": 2
+            }
+        },
+        "availableMethods": [
+            "КЭП в приложении",
+            "КЭП на токене"
+        ],
+        "claims": 3
+    },
+    {
+        "clientId": "client_260",
+        "organizationId": "organization_260",
+        "segment": "Малый бизнес",
+        "role": "ЕИО",
+        "organizations": 234,
+        "currentMethod": "PayControl",
+        "mobileApp": false,
+        "signatures": {
+            "common": {
+                "mobile": 6,
+                "web": 76
+            },
+            "special": {
+                "mobile": 20,
+                "web": 32
+            }
+        },
+        "availableMethods": [
+            "SMS",
+            "КЭП на токене",
+            "КЭП в приложении"
+        ],
+        "claims": 5
+    },
+    {
+        "clientId": "client_261",
+        "organizationId": "organization_261",
+        "segment": "Малый бизнес",
+        "role": "Сотрудник",
+        "organizations": 216,
+        "currentMethod": "SMS",
+        "mobileApp": true,
+        "signatures": {
+            "common": {
+                "mobile": 13,
+                "web": 40
+            },
+            "special": {
+                "mobile": 8,
+                "web": 0
+            }
+        },
+        "availableMethods": [
+            "PayControl",
+            "КЭП в приложении",
+            "SMS"
+        ],
+        "claims": 1
+    },
+    {
+        "clientId": "client_262",
+        "organizationId": "organization_262",
+        "segment": "Малый бизнес",
+        "role": "Сотрудник",
+        "organizations": 170,
+        "currentMethod": "PayControl",
+        "mobileApp": true,
+        "signatures": {
+            "common": {
+                "mobile": 7,
+                "web": 21
+            },
+            "special": {
+                "mobile": 2,
+                "web": 8
+            }
+        },
+        "availableMethods": [
+            "SMS",
+            "PayControl",
+            "КЭП в приложении"
+        ],
+        "claims": 2
+    },
+    {
+        "clientId": "client_263",
+        "organizationId": "organization_263",
+        "segment": "Средний бизнес",
+        "role": "ЕИО",
+        "organizations": 134,
+        "currentMethod": "КЭП в приложении",
+        "mobileApp": false,
+        "signatures": {
+            "common": {
+                "mobile": 9,
+                "web": 147
+            },
+            "special": {
+                "mobile": 18,
+                "web": 42
+            }
+        },
+        "availableMethods": [
+            "КЭП на токене",
+            "КЭП в приложении",
+            "PayControl"
+        ],
+        "claims": 0
+    },
+    {
+        "clientId": "client_264",
+        "organizationId": "organization_264",
+        "segment": "Крупный бизнес",
+        "role": "Сотрудник",
+        "organizations": 286,
+        "currentMethod": "PayControl",
+        "mobileApp": true,
+        "signatures": {
+            "common": {
+                "mobile": 28,
+                "web": 68
+            },
+            "special": {
+                "mobile": 10,
+                "web": 0
+            }
+        },
+        "availableMethods": [
+            "PayControl",
+            "КЭП в приложении",
+            "SMS"
+        ],
+        "claims": 5
+    },
+    {
+        "clientId": "client_265",
+        "organizationId": "organization_265",
+        "segment": "Средний бизнес",
+        "role": "Сотрудник",
+        "organizations": 226,
+        "currentMethod": "SMS",
+        "mobileApp": false,
+        "signatures": {
+            "common": {
+                "mobile": 15,
+                "web": 63
+            },
+            "special": {
+                "mobile": 10,
+                "web": 0
+            }
+        },
+        "availableMethods": [
+            "КЭП на токене",
+            "КЭП в приложении",
+            "PayControl",
+            "SMS"
+        ],
+        "claims": 2
+    },
+    {
+        "clientId": "client_266",
+        "organizationId": "organization_266",
+        "segment": "Средний бизнес",
+        "role": "ЕИО",
+        "organizations": 30,
+        "currentMethod": "КЭП в приложении",
+        "mobileApp": false,
+        "signatures": {
+            "common": {
+                "mobile": 60,
+                "web": 12
+            },
+            "special": {
+                "mobile": 27,
+                "web": 0
+            }
+        },
+        "availableMethods": [
+            "SMS"
+        ],
+        "claims": 0
+    },
+    {
+        "clientId": "client_267",
+        "organizationId": "organization_267",
+        "segment": "Крупный бизнес",
+        "role": "Сотрудник",
+        "organizations": 87,
+        "currentMethod": "SMS",
+        "mobileApp": true,
+        "signatures": {
+            "common": {
+                "mobile": 28,
+                "web": 28
+            },
+            "special": {
+                "mobile": 12,
+                "web": 40
+            }
+        },
+        "availableMethods": [
+            "PayControl",
+            "КЭП в приложении",
+            "SMS"
+        ],
+        "claims": 4
+    },
+    {
+        "clientId": "client_268",
+        "organizationId": "organization_268",
+        "segment": "Крупный бизнес",
+        "role": "Сотрудник",
+        "organizations": 144,
+        "currentMethod": "PayControl",
+        "mobileApp": false,
+        "signatures": {
+            "common": {
+                "mobile": 36,
+                "web": 82
+            },
+            "special": {
+                "mobile": 18,
+                "web": 34
+            }
+        },
+        "availableMethods": [
+            "КЭП на токене",
+            "КЭП в приложении",
+            "SMS",
+            "PayControl"
+        ],
+        "claims": 4
+    },
+    {
+        "clientId": "client_269",
+        "organizationId": "organization_269",
+        "segment": "Малый бизнес",
+        "role": "Сотрудник",
+        "organizations": 272,
+        "currentMethod": "КЭП в приложении",
+        "mobileApp": false,
+        "signatures": {
+            "common": {
+                "mobile": 1,
+                "web": 49
+            },
+            "special": {
+                "mobile": 9,
+                "web": 17
+            }
+        },
+        "availableMethods": [
+            "КЭП на токене",
+            "КЭП в приложении",
+            "PayControl",
+            "SMS"
+        ],
+        "claims": 3
+    },
+    {
+        "clientId": "client_270",
+        "organizationId": "organization_270",
+        "segment": "Средний бизнес",
+        "role": "ЕИО",
+        "organizations": 113,
+        "currentMethod": "КЭП на токене",
+        "mobileApp": false,
+        "signatures": {
+            "common": {
+                "mobile": 42,
+                "web": 84
+            },
+            "special": {
+                "mobile": 24,
+                "web": 42
+            }
+        },
+        "availableMethods": [
+            "КЭП в приложении",
+            "SMS",
+            "КЭП на токене"
+        ],
+        "claims": 4
+    },
+    {
+        "clientId": "client_271",
+        "organizationId": "organization_271",
+        "segment": "Средний бизнес",
+        "role": "Сотрудник",
+        "organizations": 74,
+        "currentMethod": "PayControl",
+        "mobileApp": true,
+        "signatures": {
+            "common": {
+                "mobile": 6,
+                "web": 64
+            },
+            "special": {
+                "mobile": 12,
+                "web": 9
+            }
+        },
+        "availableMethods": [
+            "PayControl",
+            "SMS",
+            "КЭП на токене"
+        ],
+        "claims": 2
+    },
+    {
+        "clientId": "client_272",
+        "organizationId": "organization_272",
+        "segment": "Средний бизнес",
+        "role": "ЕИО",
+        "organizations": 242,
+        "currentMethod": "SMS",
+        "mobileApp": true,
+        "signatures": {
+            "common": {
+                "mobile": 42,
+                "web": 69
+            },
+            "special": {
+                "mobile": 18,
+                "web": 30
+            }
+        },
+        "availableMethods": [
+            "PayControl"
+        ],
+        "claims": 3
+    },
+    {
+        "clientId": "client_273",
+        "organizationId": "organization_273",
+        "segment": "Малый бизнес",
+        "role": "Сотрудник",
+        "organizations": 16,
+        "currentMethod": "КЭП на токене",
+        "mobileApp": true,
+        "signatures": {
+            "common": {
+                "mobile": 13,
+                "web": 44
+            },
+            "special": {
+                "mobile": 4,
+                "web": 5
+            }
+        },
+        "availableMethods": [
+            "PayControl",
+            "КЭП на токене",
+            "SMS",
+            "КЭП в приложении"
+        ],
+        "claims": 0
+    },
+    {
+        "clientId": "client_274",
+        "organizationId": "organization_274",
+        "segment": "Малый бизнес",
+        "role": "Сотрудник",
+        "organizations": 135,
+        "currentMethod": "SMS",
+        "mobileApp": false,
+        "signatures": {
+            "common": {
+                "mobile": 7,
+                "web": 18
+            },
+            "special": {
+                "mobile": 6,
+                "web": 9
+            }
+        },
+        "availableMethods": [
+            "SMS"
+        ],
+        "claims": 5
+    },
+    {
+        "clientId": "client_275",
+        "organizationId": "organization_275",
+        "segment": "Малый бизнес",
+        "role": "Сотрудник",
+        "organizations": 187,
+        "currentMethod": "КЭП в приложении",
+        "mobileApp": false,
+        "signatures": {
+            "common": {
+                "mobile": 4,
+                "web": 46
+            },
+            "special": {
+                "mobile": 7,
+                "web": 6
+            }
+        },
+        "availableMethods": [
+            "КЭП на токене"
+        ],
+        "claims": 2
+    },
+    {
+        "clientId": "client_276",
+        "organizationId": "organization_276",
+        "segment": "Средний бизнес",
+        "role": "ЕИО",
+        "organizations": 107,
+        "currentMethod": "КЭП на токене",
+        "mobileApp": true,
+        "signatures": {
+            "common": {
+                "mobile": 9,
+                "web": 78
+            },
+            "special": {
+                "mobile": 24,
+                "web": 33
+            }
+        },
+        "availableMethods": [
+            "КЭП в приложении"
+        ],
+        "claims": 4
+    },
+    {
+        "clientId": "client_277",
+        "organizationId": "organization_277",
+        "segment": "Средний бизнес",
+        "role": "Сотрудник",
+        "organizations": 297,
+        "currentMethod": "КЭП на токене",
+        "mobileApp": true,
+        "signatures": {
+            "common": {
+                "mobile": 25,
+                "web": 16
+            },
+            "special": {
+                "mobile": 0,
+                "web": 15
+            }
+        },
+        "availableMethods": [
+            "КЭП на токене",
+            "SMS",
+            "КЭП в приложении"
+        ],
+        "claims": 1
+    },
+    {
+        "clientId": "client_278",
+        "organizationId": "organization_278",
+        "segment": "Средний бизнес",
+        "role": "Сотрудник",
+        "organizations": 81,
+        "currentMethod": "КЭП на токене",
+        "mobileApp": false,
+        "signatures": {
+            "common": {
+                "mobile": 9,
+                "web": 46
+            },
+            "special": {
+                "mobile": 15,
+                "web": 30
+            }
+        },
+        "availableMethods": [
+            "SMS",
+            "КЭП на токене"
+        ],
+        "claims": 5
+    },
+    {
+        "clientId": "client_279",
+        "organizationId": "organization_279",
+        "segment": "Крупный бизнес",
+        "role": "Сотрудник",
+        "organizations": 63,
+        "currentMethod": "КЭП в приложении",
+        "mobileApp": false,
+        "signatures": {
+            "common": {
+                "mobile": 14,
+                "web": 66
+            },
+            "special": {
+                "mobile": 10,
+                "web": 20
+            }
+        },
+        "availableMethods": [
+            "КЭП на токене"
+        ],
+        "claims": 2
+    },
+    {
+        "clientId": "client_280",
+        "organizationId": "organization_280",
+        "segment": "Малый бизнес",
+        "role": "Сотрудник",
+        "organizations": 115,
+        "currentMethod": "КЭП на токене",
+        "mobileApp": true,
+        "signatures": {
+            "common": {
+                "mobile": 1,
+                "web": 27
+            },
+            "special": {
+                "mobile": 4,
+                "web": 11
+            }
+        },
+        "availableMethods": [
+            "КЭП на токене",
+            "КЭП в приложении",
+            "SMS",
+            "PayControl"
+        ],
+        "claims": 2
+    },
+    {
+        "clientId": "client_281",
+        "organizationId": "organization_281",
+        "segment": "Малый бизнес",
+        "role": "Сотрудник",
+        "organizations": 55,
+        "currentMethod": "КЭП на токене",
+        "mobileApp": true,
+        "signatures": {
+            "common": {
+                "mobile": 17,
+                "web": 3
+            },
+            "special": {
+                "mobile": 6,
+                "web": 13
+            }
+        },
+        "availableMethods": [
+            "PayControl",
+            "КЭП в приложении",
+            "SMS",
+            "КЭП на токене"
+        ],
+        "claims": 3
+    },
+    {
+        "clientId": "client_282",
+        "organizationId": "organization_282",
+        "segment": "Средний бизнес",
+        "role": "Сотрудник",
+        "organizations": 138,
+        "currentMethod": "SMS",
+        "mobileApp": false,
+        "signatures": {
+            "common": {
+                "mobile": 21,
+                "web": 12
+            },
+            "special": {
+                "mobile": 9,
+                "web": 0
+            }
+        },
+        "availableMethods": [
+            "PayControl"
+        ],
+        "claims": 0
+    },
+    {
+        "clientId": "client_283",
+        "organizationId": "organization_283",
+        "segment": "Средний бизнес",
+        "role": "ЕИО",
+        "organizations": 16,
+        "currentMethod": "КЭП на токене",
+        "mobileApp": true,
+        "signatures": {
+            "common": {
+                "mobile": 0,
+                "web": 27
+            },
+            "special": {
+                "mobile": 3,
+                "web": 0
+            }
+        },
+        "availableMethods": [
+            "КЭП в приложении",
+            "PayControl",
+            "КЭП на токене",
+            "SMS"
+        ],
+        "claims": 1
+    },
+    {
+        "clientId": "client_284",
+        "organizationId": "organization_284",
+        "segment": "Крупный бизнес",
+        "role": "ЕИО",
+        "organizations": 223,
+        "currentMethod": "SMS",
+        "mobileApp": true,
+        "signatures": {
+            "common": {
+                "mobile": 80,
+                "web": 40
+            },
+            "special": {
+                "mobile": 0,
+                "web": 44
+            }
+        },
+        "availableMethods": [
+            "КЭП в приложении",
+            "PayControl",
+            "SMS",
+            "КЭП на токене"
+        ],
+        "claims": 4
+    },
+    {
+        "clientId": "client_285",
+        "organizationId": "organization_285",
+        "segment": "Малый бизнес",
+        "role": "ЕИО",
+        "organizations": 131,
+        "currentMethod": "КЭП на токене",
+        "mobileApp": true,
+        "signatures": {
+            "common": {
+                "mobile": 26,
+                "web": 46
+            },
+            "special": {
+                "mobile": 14,
+                "web": 32
+            }
+        },
+        "availableMethods": [
+            "КЭП в приложении",
+            "SMS",
+            "PayControl",
+            "КЭП на токене"
+        ],
+        "claims": 2
+    },
+    {
+        "clientId": "client_286",
+        "organizationId": "organization_286",
+        "segment": "Средний бизнес",
+        "role": "Сотрудник",
+        "organizations": 102,
+        "currentMethod": "КЭП в приложении",
+        "mobileApp": true,
+        "signatures": {
+            "common": {
+                "mobile": 12,
+                "web": 9
+            },
+            "special": {
+                "mobile": 7,
+                "web": 4
+            }
+        },
+        "availableMethods": [
+            "КЭП на токене",
+            "SMS"
+        ],
+        "claims": 5
+    },
+    {
+        "clientId": "client_287",
+        "organizationId": "organization_287",
+        "segment": "Крупный бизнес",
+        "role": "Сотрудник",
+        "organizations": 103,
+        "currentMethod": "КЭП на токене",
+        "mobileApp": false,
+        "signatures": {
+            "common": {
+                "mobile": 38,
+                "web": 26
+            },
+            "special": {
+                "mobile": 12,
+                "web": 14
+            }
+        },
+        "availableMethods": [
+            "PayControl",
+            "SMS",
+            "КЭП в приложении"
+        ],
+        "claims": 3
+    },
+    {
+        "clientId": "client_288",
+        "organizationId": "organization_288",
+        "segment": "Малый бизнес",
+        "role": "Сотрудник",
+        "organizations": 155,
+        "currentMethod": "SMS",
+        "mobileApp": false,
+        "signatures": {
+            "common": {
+                "mobile": 6,
+                "web": 3
+            },
+            "special": {
+                "mobile": 3,
+                "web": 17
+            }
+        },
+        "availableMethods": [
+            "SMS",
+            "КЭП в приложении"
+        ],
+        "claims": 3
+    },
+    {
+        "clientId": "client_289",
+        "organizationId": "organization_289",
+        "segment": "Малый бизнес",
+        "role": "Сотрудник",
+        "organizations": 214,
+        "currentMethod": "КЭП на токене",
+        "mobileApp": false,
+        "signatures": {
+            "common": {
+                "mobile": 11,
+                "web": 5
+            },
+            "special": {
+                "mobile": 10,
+                "web": 14
+            }
+        },
+        "availableMethods": [
+            "SMS",
+            "PayControl",
+            "КЭП на токене"
+        ],
+        "claims": 3
+    },
+    {
+        "clientId": "client_290",
+        "organizationId": "organization_290",
+        "segment": "Малый бизнес",
+        "role": "Сотрудник",
+        "organizations": 190,
+        "currentMethod": "КЭП в приложении",
+        "mobileApp": false,
+        "signatures": {
+            "common": {
+                "mobile": 9,
+                "web": 43
+            },
+            "special": {
+                "mobile": 5,
+                "web": 0
+            }
+        },
+        "availableMethods": [
+            "SMS",
+            "КЭП в приложении",
+            "КЭП на токене",
+            "PayControl"
+        ],
+        "claims": 3
+    },
+    {
+        "clientId": "client_291",
+        "organizationId": "organization_291",
+        "segment": "Средний бизнес",
+        "role": "ЕИО",
+        "organizations": 7,
+        "currentMethod": "SMS",
+        "mobileApp": false,
+        "signatures": {
+            "common": {
+                "mobile": 15,
+                "web": 30
+            },
+            "special": {
+                "mobile": 24,
+                "web": 12
+            }
+        },
+        "availableMethods": [
+            "КЭП в приложении",
+            "КЭП на токене",
+            "PayControl"
+        ],
+        "claims": 3
+    },
+    {
+        "clientId": "client_292",
+        "organizationId": "organization_292",
+        "segment": "Средний бизнес",
+        "role": "ЕИО",
+        "organizations": 80,
+        "currentMethod": "PayControl",
+        "mobileApp": true,
+        "signatures": {
+            "common": {
+                "mobile": 57,
+                "web": 69
+            },
+            "special": {
+                "mobile": 27,
+                "web": 12
+            }
+        },
+        "availableMethods": [
+            "КЭП на токене"
+        ],
+        "claims": 3
+    },
+    {
+        "clientId": "client_293",
+        "organizationId": "organization_293",
+        "segment": "Крупный бизнес",
+        "role": "ЕИО",
+        "organizations": 15,
+        "currentMethod": "КЭП на токене",
+        "mobileApp": false,
+        "signatures": {
+            "common": {
+                "mobile": 72,
+                "web": 60
+            },
+            "special": {
+                "mobile": 16,
+                "web": 56
+            }
+        },
+        "availableMethods": [
+            "КЭП в приложении",
+            "SMS"
+        ],
+        "claims": 3
+    },
+    {
+        "clientId": "client_294",
+        "organizationId": "organization_294",
+        "segment": "Крупный бизнес",
+        "role": "Сотрудник",
+        "organizations": 22,
+        "currentMethod": "SMS",
+        "mobileApp": false,
+        "signatures": {
+            "common": {
+                "mobile": 40,
+                "web": 22
+            },
+            "special": {
+                "mobile": 20,
+                "web": 38
+            }
+        },
+        "availableMethods": [
+            "КЭП в приложении",
+            "КЭП на токене",
+            "SMS"
+        ],
+        "claims": 3
+    },
+    {
+        "clientId": "client_295",
+        "organizationId": "organization_295",
+        "segment": "Средний бизнес",
+        "role": "ЕИО",
+        "organizations": 89,
+        "currentMethod": "SMS",
+        "mobileApp": true,
+        "signatures": {
+            "common": {
+                "mobile": 36,
+                "web": 81
+            },
+            "special": {
+                "mobile": 27,
+                "web": 45
+            }
+        },
+        "availableMethods": [
+            "КЭП в приложении"
+        ],
+        "claims": 1
+    },
+    {
+        "clientId": "client_296",
+        "organizationId": "organization_296",
+        "segment": "Средний бизнес",
+        "role": "Сотрудник",
+        "organizations": 150,
+        "currentMethod": "SMS",
+        "mobileApp": false,
+        "signatures": {
+            "common": {
+                "mobile": 28,
+                "web": 70
+            },
+            "special": {
+                "mobile": 3,
+                "web": 28
+            }
+        },
+        "availableMethods": [
+            "SMS",
+            "PayControl",
+            "КЭП в приложении"
+        ],
+        "claims": 0
+    },
+    {
+        "clientId": "client_297",
+        "organizationId": "organization_297",
+        "segment": "Малый бизнес",
+        "role": "ЕИО",
+        "organizations": 22,
+        "currentMethod": "КЭП на токене",
+        "mobileApp": false,
+        "signatures": {
+            "common": {
+                "mobile": 2,
+                "web": 88
+            },
+            "special": {
+                "mobile": 12,
+                "web": 16
+            }
+        },
+        "availableMethods": [
+            "SMS"
+        ],
+        "claims": 1
+    },
+    {
+        "clientId": "client_298",
+        "organizationId": "organization_298",
+        "segment": "Крупный бизнес",
+        "role": "ЕИО",
+        "organizations": 147,
+        "currentMethod": "КЭП на токене",
+        "mobileApp": false,
+        "signatures": {
+            "common": {
+                "mobile": 8,
+                "web": 164
+            },
+            "special": {
+                "mobile": 24,
+                "web": 40
+            }
+        },
+        "availableMethods": [
+            "КЭП в приложении",
+            "PayControl"
+        ],
+        "claims": 1
+    },
+    {
+        "clientId": "client_299",
+        "organizationId": "organization_299",
+        "segment": "Крупный бизнес",
+        "role": "Сотрудник",
+        "organizations": 239,
+        "currentMethod": "PayControl",
+        "mobileApp": true,
+        "signatures": {
+            "common": {
+                "mobile": 2,
+                "web": 26
+            },
+            "special": {
+                "mobile": 0,
+                "web": 22
+            }
+        },
+        "availableMethods": [
+            "КЭП в приложении"
+        ],
+        "claims": 1
+    },
+    {
+        "clientId": "client_300",
+        "organizationId": "organization_300",
+        "segment": "Средний бизнес",
+        "role": "Сотрудник",
+        "organizations": 221,
+        "currentMethod": "КЭП в приложении",
+        "mobileApp": false,
+        "signatures": {
+            "common": {
+                "mobile": 28,
+                "web": 22
+            },
+            "special": {
+                "mobile": 4,
+                "web": 28
+            }
+        },
+        "availableMethods": [
+            "PayControl",
+            "SMS",
+            "КЭП на токене"
+        ],
+        "claims": 1
+    }
+]
