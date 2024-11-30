@@ -57,8 +57,8 @@ def predict_from_file(file_path):
     # Печатаем предсказания в формате JSON
     result = {"class": predictions[len(predictions)-1].item()}
 
-    with open("example.json", "w") as file:
-        json.dump(result, file, ensure_ascii=False, indent=4)
+    print(json.dumps(result))
+    
     
 
 
