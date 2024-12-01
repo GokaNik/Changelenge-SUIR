@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Электронная подпись - Альфа Банк</title>
+    <script src="data.js" defer></script> <!-- Подключаем файл data.js -->
+
+    <style>
+        body {
+            font-family: Arial, sans-serif; /* Шрифт для всего документа */
+            margin: 0; /* Убираем отступы по умолчанию */
+            padding: 20px; /* Отступы внутри страницы */
+            background-color: #d3d3d3; /* Цвет фона страницы */
+        }
+
+        .header {
+            text-align: left; /* Выравнивание текста влево */
+            margin-bottom: 40px; /* Увеличиваем отступ снизу для большей высоты между частями */
+            background-color: #f1faee; /* Темный фон для верхней части */
+            padding: 20px; /* Отступы внутри блока заголовков */
+        }
+
+        .header h1 {
+            color: #ba181b; /* Красный цвет заголовка */
+            font-size: 36px; /* Размер шрифта заголовка */
+            margin-bottom: 10px; /* Отступ снизу для заголовка */
+        }
+
+        .header h2 {
+            color: #ba181b; /* Цвет подзаголовка такой же, как и фон нижней части */
+            font-size: 24px; /* Размер шрифта подзаголовка */
+            margin: 0; /* Убираем отступы у подзаголовков */
+        }
+
+        .content {
+            text-align: center; /* Центрируем текст в этом блоке */
+            margin-top: 20px; /* Отступ сверху */
+            background-color: #ba181b; /* Бежевый фон для нижней части */
+            padding: 20px; /* Отступы внутри блока контента */
+        }
+
+        .divider {
+            border-top: 2px solid #457b9d; /* Более толстая горизонтальная линия с цветом */
+            margin: 20px 0; /* Отступы сверху и снизу */
+        }
+
+        .definition {
+            text-align: left; /* Выравнивание текста влево для определений */
+            margin-top: 20px; /* Отступ сверху */
+            background-color: #f1faee; /* Цвет фона блока определений */
+            padding: 20px; /* Внутренние отступы для блока определений */
+            border-radius: 8px; /* Закругление углов блока определений */
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Тень для блока определений */
+        }
+
+        .definition p {
+            color: #000000; /* Черный цвет текста определений */
+        }
+
+        .choose-button {
+            display: block; /* Делаем кнопку блочным элементом */
+            width: 220px; /* Ширина кнопки */
+            font-size: 24px; /* Размер шрифта для кнопки */
+            margin: 50px auto 0; /* Центрируем кнопку и добавляем отступ сверху */
+            padding: 15px; /* Внутренние отступы для кнопки */
+            background-color: #ba181b; /* Красный цвет фона кнопки */
+            color: #f1faee; /* Цвет текста кнопки белый */
+            border: none; /* Убираем границы кнопки */
+            border-radius: 5px; /* Закругляем углы кнопки */
+            cursor: pointer; /* Курсор при наведении на кнопку */
+            transition: background-color 0.3s ease; /* Плавный переход цвета фона при наведении на кнопку */
+        }
+
+        .choose-button:hover {
+            background-color: #C70039; /* Темно-красный цвет фона при наведении на кнопку */
+        }
+
+        /* Стили для модального окна */
+        .modal {
+            display: none; /* Скрываем модальное окно по умолчанию */
+            position: fixed;
+            z-index: 1000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            overflow: auto;
+            background-color: rgba(0,0,0,0.4); /* Полупрозрачный черный фон */
+        }
+
+        .modal-content {
+            background-color: #f1faee;
+            margin: 15% auto;
+            padding: 20px;
+            border-radius: 5px;
+            width: 80%; /* Ширина модального окна (можно изменить) */
+        }
+
+        .close {
+            color: #aaa;
+            float: right;
+            font-size: 28px;
+            font-weight: bold;
+        }
+
+        .close:hover,
+        .close:focus {
+            color: black;
+            text-decoration: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <h1>Электронная подпись</h1>
+        <h2>Какую выбрать, как и где получить</h2>
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="content">
+        <h1>Что такое электронная подпись</h1>
+        <div class="definition">
+           <p><strong>Электронная подпись (ЭП)</strong> — аналог подписи от руки, который обладает такой же юридической значимостью.</p>
+           <div class="divider"></div> <!-- Разделитель между определениями -->
+           <p><strong>Усиленная электронная подпись (УЭП)</strong> — фиксирует, когда и кем подписан документ и что он не изменялся с момента подписи, а также гарантирует неотрекаемость — от факта подписания документа нельзя отказаться.</p>
+       </div>
+   </div>
+
+   <!-- Кнопка выбора способа -->
+   <button class="choose-button" id="myBtn">Выбрать способ</button>
+
+   <!-- Модальное окно -->
+   <div id="myModal" class="modal">
+      <div class="modal-content">
+          <span class="close">&times;</span>
+          <p id="modalText">На основе анализа вашего личного кабинета, советуем использовать способ оплаты.</p>
+      </div>
+   </div>
+
+   <script>
+      // Получаем модальное окно
+      var modal = document.getElementById("myModal");
+
+      // Получаем кнопку, которая открывает модальное окно
+      var btn = document.getElementById("myBtn");
+
+      // Получаем элемент <span>, который закрывает модальное окно
+      var span = document.getElementsByClassName("close")[0];
+
+      // Когда пользователь нажимает на кнопку, открываем модальное окно
+      btn.onclick = function() {
+          modal.style.display = "block";
+          // Получаем способ оплаты из data.js
+          var paymentMethod = getPaymentMethod();
+          document.getElementById("modalText").innerText = "На основе анализа вашего личного кабинета, советуем использовать " + paymentMethod + ".";
+      }
+
+      // Когда пользователь нажимает на <span> (x), закрываем модальное окно
+      span.onclick = function() {
+          modal.style.display = "none";
+      }
+
+      // Когда пользователь нажимает в любом месте вне модального окна, закрываем его
+      window.onclick = function(event) {
+          if (event.target == modal) {
+              modal.style.display = "none";
+          }
+      }
+   </script>
+
+</body>
+</html>
